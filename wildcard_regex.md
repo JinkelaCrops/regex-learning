@@ -95,9 +95,12 @@ Word中的通配符在查找替换时很有用。
 
 
 ## 参考
+
 * Unicode字符：[Unicode字符列表](https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8), [Unicode/Character reference](https://en.wikibooks.org/wiki/Unicode/Character_reference/0000-0FFF), [Unicode 10.0 Character Code Charts](https://www.unicode.org/charts), [世界文字大全，Unicode 字符集](http://www.qqxiuzi.cn/zh/unicode-zifu.php?plane=0&ks=0000&js=0FFF)
 
 * Word查找替换详解：[Word中的查找与替换通配符详解](https://wenku.baidu.com/view/3c2f6b59ad02de80d4d8406b.html?re=view)
+
+* 自己理解并能够书写出正确的符合自己业务逻辑的表达式，不应当盲目迷信网上的解决方案
 
 
 # Antconc中的正则表达式
