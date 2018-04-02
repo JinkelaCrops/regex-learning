@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [['$','$'], ['\\(','\\)']]}});</script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS": {"availableFonts":["TeX"],"scale": 150}});</script>
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+</style>
+
+</head>
+<body>
+<h1 id="%E9%80%9A%E9%85%8D%E7%AC%A6%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB">通配符和正则表达式的区别</h1>
+<p>通配符是指按照一定的模式匹配一个或多个真正的字符，比如<code>Notep?d</code>可以对应<code>Notepad</code>, <code>Noteped</code>，是一种模糊检索的方式。在Linux和类Unix系统中的Shell命令行中，通配符被广泛使用。与简单的通配符不同，正则表达式要强大的多。正则表达式于1960s由Thompson引入Unix系统的标准文本编辑器，自此以后正则表达式被广泛地应用于各种Unix或类Unix系统的工具中。正则表达式遵循一定的规范，最著名的是从Perl衍生出来的PCRE（Per Compatible Regular Expression）规范和POSIX（Portable Operating System Interface for Unix）规范定义的正则规范。目前，各个编程语言都或多或少地支持一定的程度的正则表达式，但是也有一些自己特有的不同之处。</p>
+<h1 id="%E5%BC%95%E5%85%A5%E9%97%AE%E9%A2%98">引入问题</h1>
+<p>正则表达式是处理文本和字符串的利器。假设你想检查一个邮箱地址是否合法，如果不用正则表达式，请问你会用什么来处理呢？自己编写一段复杂的字符串匹配的代码吗？利用正则表达式，我们可以使用一句不太长的字符，完成一个很复杂的功能。但是，过长的正则表达式晦涩难懂，即使写出这些正则表达式，过段时间后也不见得能够解释清楚。</p>
+<p>带着问题学习，能够有效地增加高级知识，更有针对性，学习效果会更好。为了完成下面的讲述，我们先来看几个问题。</p>
+<p>我们使用的文本是医疗领域的50000句中英双语句对，中文和英文之间以<code>&quot; ||| &quot;</code>分隔。想象一下我们有以下的检索任务：</p>
+<ul>
+<li>数字，包括整数和小数</li>
+<li>英文缩写，骆驼拼写等特殊单词</li>
+<li>带有连字符的英文单词，包括化合物名字</li>
+<li>中文中含有的英文单词</li>
+<li>中英对照的单词、数字</li>
+</ul>
+<p>如果搞懂了以上的集个案例，那我们也就入门了通配符和正则表达式。</p>
+<h1 id="word%E4%B8%AD%E7%9A%84%E9%80%9A%E9%85%8D%E7%AC%A6">Word中的通配符</h1>
+<p>Word中的通配符在查找替换时很有用。</p>
+<h2 id="%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">基本概念</h2>
+<ol>
+<li>
+<p><code>?</code>, <code>*</code></p>
+<p><code>?</code>代表一个单独的字符，例如<code>s?t</code>可以找到<code>sat</code>, <code>sit</code>, <code>set</code>等开头为<code>s</code>结尾为<code>t</code>的长度为3的字符串</p>
+<p><code>*</code>代表任意个数的字符，例如<code>s*t</code>可以找到<code>st</code>, <code>sit</code>, <code>secret</code>, <code>serpent</code>, <code>sailing boat</code>等</p>
+</li>
+<li>
+<p><code>@</code></p>
+<p><code>@</code>代表重复前一个字符一次或者多次，例如<code>lo@t</code>可以找到<code>lot</code>, <code>loot</code>, 非贪婪</p>
+</li>
+<li>
+<p><code>&lt;</code>, <code>&gt;</code></p>
+<p><code>&lt;</code>代表一个单词的开始，而<code>&gt;</code>代表一个单词的结束。他们本身不匹配任何单词，但是能够指明匹配的位置。例如<code>&lt;s*t&gt;</code>可以匹配任何以<code>s</code>开头以<code>t</code>结尾的片段：<code>tea-set</code>中的<code>set</code>，但是不能匹配<code>toolset</code>中的<code>set</code>，因为不是单词边界。</p>
+<p><code>&lt;</code>, <code>&gt;</code>可以单独使用，例如<code>ful@&gt;</code>可以匹配<code>full</code>, <code>wilful</code>中的<code>ful</code>，但是不能匹配<code>wilfully</code>中的<code>full</code>。</p>
+</li>
+<li>
+<p><code>[]</code></p>
+<p>用<code>[]</code>表示一个集合中的任意一个元素，<code>[abc]</code>会匹配<code>a</code>, <code>b</code>, <code>c</code>中的任意一个字符。<code>[]</code>也能够支持区间查找，例如<code>[A-Z]</code>可以匹配所有的英文大写字母，<code>[A-Za-z]</code>可以匹配所有的英文字母。</p>
+</li>
+<li>
+<p><code>\</code></p>
+<p>如果你想查找任意有特殊含义的字符，例如通配符中的<code>?</code>, <code>*</code>, <code>@</code>, 应当在前面加上<code>\</code>进行转义，例如<code>\?</code>, <code>\*</code>, <code>\@</code>。如果想要查找<code>\</code>本身，应当使用<code>\\</code>。</p>
+<p>列举通配符查找中的特殊含义字符： <input type="checkbox" id="checkbox0"><label for="checkbox0">{ } &lt; &gt; ( ) - @ ? ! * \</label></p>
+</li>
+<li>
+<p><code>[!]</code></p>
+<p>用<code>[!]</code>表示任意一个非集合元素的字符，<code>[!abc]</code>会匹配除了<code>a</code>, <code>b</code>, <code>c</code>以外的一个任意字符。<code>[!]</code>也能够支持区间查找，例如<code>[!A-Z]</code>可以匹配所有非英文大写字母的字符。</p>
+</li>
+<li>
+<p><code>{}</code></p>
+<p>用<code>{n}</code>表示重复前面的字符<code>n</code>次，<code>{n,}</code>表示重复前面的字符不少于<code>n</code>次，<code>{n,m}</code>表示重复前面的字符不少于<code>n</code>次，不多于<code>m</code>次。例如：<code>[deno]{4}</code>可以匹配<code>done</code>, <code>node</code>, <code>eden</code>，<code>a{2,3}</code>可以匹配<code>aa</code>, <code>aaa</code></p>
+</li>
+<li>
+<p><code>()</code></p>
+<p>用<code>()</code>表示捕获组，例如<code>(John) (Smith)</code>，其第一个捕获组<code>\1</code>指的是<code>John</code>，第二个组<code>\2</code>指的是<code>Smith</code>。这在替换中非常有用，例如，将<code>JavaScript</code>, <code>PowerShell</code>替换为<code>Java Script</code>, <code>Power Shell</code>, 可以这样写：</p>
+<p>查找：<code>&lt;([A-Z][a-z]@)([A-Z][a-z]@)&gt;</code></p>
+<p>替换：<code>\1 \2</code></p>
+<p>这在解析html标签时也十分有用，例如给<code>&lt;title&gt;正则表达式&lt;/title&gt;</code>脱括号：</p>
+<p>查找：<code>\&lt;([!&lt;&gt;]@)\&gt;(*)\&lt;/\1\&gt;</code></p>
+<p>替换：<code>\2</code></p>
+</li>
+<li>
+<p><code>^</code></p>
+<p>使用<code>^</code>代表acsii字符转义和一些特殊的字符，例如制表符<code>^t</code>, 可以在Word的特殊格式中找到。有一些例如<code>^p</code>段落标记不能与通配符同时使用，因此需要用unicode编码。</p>
+</li>
+</ol>
+<h2 id="%E9%AB%98%E7%BA%A7%E6%A6%82%E5%BF%B5">高级概念</h2>
+<ol>
+<li>
+<p>贪婪，非贪婪</p>
+<p>贪婪的含义是：尽可能地匹配全部的字符串。Word的查找是从光标位置向后一位一位地查找，使用<code>*</code>, <code>@</code>时，一旦匹配表达式，则报告，因此，<code>*</code>, <code>@</code>是非贪婪的。与之不同的是，<code>{n,}</code>则会侵吞遇到的全部字符串，并不再回溯。</p>
+<p>要匹配<code>looootloooot</code>, 由于<code>*</code>, <code>@</code>非贪婪，故应当对匹配内容进行精确描述：</p>
+<p><code>l*t</code>或者<code>l[lot]@t</code>只能够匹配前面的<code>loooot</code>, 而<code>l*t&gt;</code>或者<code>l[lot]@t&gt;</code>则可以匹配全部。</p>
+<p><code>l[lot]{1,}t</code>不能匹配，因为<code>l[lot]{1,}</code>就已经侵吞了全部的字符串，没有机会留给最后一位的<code>t</code>。</p>
+</li>
+<li>
+<p>字符编码</p>
+<p>使用<code>^</code>后面跟上数字，可以表示一位ASCII字符。例如<code>^13</code>代表的就是回车符<code>\r</code>, 也就是Word里面的段落标记<code>^p</code>。ASCII有效范围<code>[^1-^128]</code>。</p>
+<p>此外还支持unicode范围查找，比如匹配中文：<code>[一-龥]</code>，即unicode编码<code>[\u4e00-\u9fa5]</code>。</p>
+</li>
+</ol>
+<h2 id="%E5%8F%82%E8%80%83">参考</h2>
+<ul>
+<li>
+<p>Unicode字符：</p>
+<ul>
+<li>Unicode字符列表: https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8</li>
+<li>Unicode/Character reference: https://en.wikibooks.org/wiki/Unicode/Character_reference/0000-0FFF</li>
+<li>Unicode 10.0 Character Code Charts: https://www.unicode.org/charts</li>
+<li>世界文字大全，Unicode 字符集: http://www.qqxiuzi.cn/zh/unicode-zifu.php?plane=0&amp;ks=0000&amp;js=0FFF</li>
+</ul>
+</li>
+<li>
+<p>Word中的查找与替换通配符详解: https://wenku.baidu.com/view/3c2f6b59ad02de80d4d8406b.html?re=view</p>
+</li>
+<li>
+<p>Finding and replacing characters using wildcards: https://wordmvp.com/FAQs/General/UsingWildcards.htm</p>
+</li>
+<li>
+<p>自己理解并能够书写出正确的符合自己业务逻辑的表达式，不应当盲目迷信网上的解决方案</p>
+</li>
+</ul>
+<h2 id="%E7%BB%83%E4%B9%A0">练习</h2>
+<ol>
+<li>
+<p>数字，包括整数和小数</p>
+<p><code>&lt;[0-9]@&gt;</code> <code>&lt;[0-9]@.[0-9]@&gt;</code></p>
+<p>由于Word中没有匹配0个或者1个的概念，因此只能分两步来写</p>
+</li>
+<li>
+<p>英文缩写，骆驼拼写等特殊单词</p>
+<p><code>&lt;[A-Z]{2,}&gt;</code> <code>&lt;[A-Z][a-z]@[A-Z][a-z]@&gt;</code></p>
+<p>由于Word中没有重复表达式多次的概念，因此只能匹配固定个数的单词拼接的骆驼拼写</p>
+</li>
+<li>
+<p>带有连字符的英文单词，包括化合物名字</p>
+<p><code>&lt;[A-Za-z]@\-[A-Za-z]@&gt;</code></p>
+<p>由于Word中没有重复表达式多次的概念，因此只能匹配固定个数连字符；由于没有匹配0个或1个的概念，因此如果引入数字，需要指定数字与英文的相对位置</p>
+</li>
+<li>
+<p>中文中含有的英文单词</p>
+<p><code>([一-龥])([A-Za-z]@)([一-龥])</code> <code>([一-龥])([A-Za-z]@)&gt;</code> <code>&lt;([A-Za-z]@)([一-龥])</code> <code>&lt;([A-Za-z]@)&gt;</code></p>
+<p>替换时可以<code>\1&lt;x1&gt;\2&lt;/x1&gt;\3</code>对想要的字段进行标记</p>
+</li>
+<li>
+<p>中英对照的单词、数字</p>
+<p><code>([A-Za-z]@)([!^13]@ ||| [!^13]@&lt;\1&gt;)</code></p>
+<p>替换时可以<code>&lt;x1&gt;\1&lt;/x1&gt;\2</code>对想要的字段进行标记</p>
+</li>
+</ol>
+<h1 id="antconc%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F">Antconc中的正则表达式</h1>
+<p>相比于通配符，正则表达式更为强大。</p>
+<h2 id="%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">基本概念</h2>
+<ol>
+<li>
+<p>元字符</p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.</code></td>
+<td style="text-align:left">匹配除换行符<code>\n</code>以外的任意字符</td>
+</tr>
+<tr>
+<td><code>\w</code></td>
+<td style="text-align:left">匹配字母或数字或下划线，例如<code>\w{6}</code>可以匹配6个字符的单词。python3.6中可以<code>\w</code>可以匹配字母(unicode支持)或数字或下划线或汉字，但是java8中<code>\w</code>只能匹配<code>[A-Za-z0-9_]</code></td>
+</tr>
+<tr>
+<td><code>\s</code></td>
+<td style="text-align:left">匹配任意的空白符</td>
+</tr>
+<tr>
+<td><code>\d</code></td>
+<td style="text-align:left">匹配数字</td>
+</tr>
+<tr>
+<td><code>\b</code></td>
+<td style="text-align:left">匹配单词的开始或结束，类似通配符中的<code>&lt;</code>,<code>&gt;</code>标记</td>
+</tr>
+<tr>
+<td><code>^</code></td>
+<td style="text-align:left">匹配字符串的开始，在多行匹配中标记了一行的开始</td>
+</tr>
+<tr>
+<td><code>$</code></td>
+<td style="text-align:left">匹配字符串的结束，在多行匹配中标记了一行的结束</td>
+</tr>
+</tbody>
+</table>
+<p>例如：句子有大写首字母，可以使用<code>^[A-Z]</code></p>
+</li>
+<li>
+<p>重复</p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>*</code></td>
+<td style="text-align:left">重复零次或更多次</td>
+</tr>
+<tr>
+<td><code>+</code></td>
+<td style="text-align:left">重复一次或更多次</td>
+</tr>
+<tr>
+<td><code>?</code></td>
+<td style="text-align:left">重复零次或一次</td>
+</tr>
+<tr>
+<td><code>{n}</code></td>
+<td style="text-align:left">重复n次</td>
+</tr>
+<tr>
+<td><code>{n,}</code></td>
+<td style="text-align:left">重复n次或更多次</td>
+</tr>
+<tr>
+<td><code>{n,m}</code></td>
+<td style="text-align:left">重复n到m次</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<ol start="3">
+<li>
+<p>字符类</p>
+<p>使用<code>[]</code>表示任意一个集合内的元素，类似Word通配符，例如<code>[abcde]</code>表示<code>a</code>, <code>b</code>, <code>c</code>, <code>d</code>, <code>e</code>中的任意一个，<code>[a-z]</code>表示任意一个小写英文字母</p>
+</li>
+<li>
+<p>反义</p>
+<p>使用<code>[^]</code>表示任意一个非集合内的元素，类似Word通配符<code>[!]</code>，例如<code>[^abcde]</code>表示除了<code>a</code>, <code>b</code>, <code>c</code>, <code>d</code>, <code>e</code>的任意一个字符。此外，还有一些元字符的反义：</p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>\W</code></td>
+<td style="text-align:left">匹配任意不是字母，数字，下划线，汉字的字符</td>
+</tr>
+<tr>
+<td><code>\S</code></td>
+<td style="text-align:left">匹配任意不是空白符的字符</td>
+</tr>
+<tr>
+<td><code>\D</code></td>
+<td style="text-align:left">匹配任意非数字的字符</td>
+</tr>
+<tr>
+<td><code>\B</code></td>
+<td style="text-align:left">匹配不是单词开头或结束的位置</td>
+</tr>
+</tbody>
+</table>
+<p>使用元字符及元字符反义时，一定要首先知道其能够表示的范围。不同的语言所支持正则的元字符可能有不同的表示范围，这一点在1中介绍了</p>
+</li>
+<li>
+<p>分组</p>
+<p>使用<code>()</code>来指定子表达式。与Word通配符中的<code>()</code>不同，子表达式在重复时重复的是表达式而不是捕获的组。具体的可以看这样的例子：对<code>lotlet</code></p>
+<p>Word : <code>&lt;(l[eo]t)@&gt;</code>不能匹配，<code>&lt;l[eo]tl[eo]t&gt;</code>可以匹配</p>
+<p>Regex: <code>\b(l[eo]t)+\b</code>可以匹配</p>
+<p>正则和Word一样可以引用<code>()</code>捕获的组</p>
+</li>
+<li>
+<p>分枝条件</p>
+<p>使用<code>|</code>来表示分支条件，也即或的概念。例如，要匹配1900-2099全部的年份，如果使用Word通配符要分两种情况书写，但是使用正则就方便得多：</p>
+<p><code>(19|20)[0-9]{2}</code></p>
+</li>
+<li>
+<p>字符转义</p>
+<p>这个概念在Word通配符中也存在。需要在想要查找的元字符之前加上<code>\</code></p>
+<p>列举正则中需要转义的字符： <input type="checkbox" id="checkbox1"><label for="checkbox1">{ } ( ) - \ |</label></p>
+</li>
+</ol>
+<h2 id="%E9%AB%98%E7%BA%A7%E6%A6%82%E5%BF%B5">高级概念</h2>
+<ol>
+<li>
+<p>零宽断言</p>
+<p>有一种特殊的分组并不会被捕获，这就是零宽断言。零宽断言在查找替换时很有用。下面先给出最常用的几种分组语法：</p>
+<table>
+<thead>
+<tr>
+<th>分类</th>
+<th>代码</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>捕获</td>
+<td><code>(exp)</code></td>
+<td style="text-align:left">匹配exp,并捕获文本到自动命名的组里</td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>(?&lt;name&gt;exp)</code></td>
+<td style="text-align:left">匹配exp,并捕获文本到名称为name的组里，也可以写成<code>(?'name'exp)</code></td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>(?:exp)</code></td>
+<td style="text-align:left">匹配exp,不捕获匹配的文本，也不给此分组分配组号</td>
+</tr>
+<tr>
+<td>零宽断言</td>
+<td><code>(?=exp)</code></td>
+<td style="text-align:left">匹配exp前面的位置</td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>(?&lt;=exp)</code></td>
+<td style="text-align:left">匹配exp后面的位置</td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>(?!exp)</code></td>
+<td style="text-align:left">匹配后面跟的不是exp的位置</td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>(?&lt;!exp)</code></td>
+<td style="text-align:left">匹配前面不是exp的位置</td>
+</tr>
+<tr>
+<td>注释</td>
+<td><code>(?#comment)</code></td>
+<td style="text-align:left">这种类型的分组不对正则表达式的处理产生任何影响，用于提供注释让人阅读</td>
+</tr>
+</tbody>
+</table>
+<p>首先来看捕获。我们已经熟悉了最简单的捕获<code>(exp)</code>，这里还有两个：<code>(?&lt;name&gt;exp)</code>和<code>(?:exp)</code>。例如：<code>(?&lt;name&gt;[abc]) \k&lt;name&gt;</code>可以匹配<code>a a</code>, <code>b b</code>, <code>c c</code>；而<code>(?:a|b)c</code>虽然和<code>(a|b)c</code>功能一样，但是不会捕获组，这使得在运行正则时开销更小</p>
+<p>再来看零宽断言。<code>q(?=u)</code>可以匹配所有后面紧跟着<code>u</code>的<code>q</code>，而<code>(?&lt;=q)u</code>可以匹配所有前面是<code>q</code>的<code>u</code>。具体一点，我们想要找到所有以<code>.</code>结尾的英文单词，并在<code>.</code>前加上空格<code></code>，我们可以这样写：</p>
+<p>查找：<code>\b([A-Za-z]+)(?=\.)</code></p>
+<p>替换：<code>$1</code></p>
+<p>可以看到我们并没有捕获<code>\.</code>。当想要实现的功能变得复杂时，使用零宽断言可以简化书写。</p>
+<p>而负向零宽断言<code>(?!exp)</code> <code>(?&lt;!exp)</code>则与零宽断言相反，<strong>不会</strong>匹配后面/前面为<code>exp</code>的内容，例如：</p>
+<p><code>(?&lt;=[一-龥])[A-Za-z]+(?=[一-龥])</code> 匹配前后都是汉字的英文单词</p>
+<p><code>(?&lt;![一-龥A-Za-z])[A-Za-z]+(?![一-龥A-Za-z])</code> 匹配前后都不是汉字的英文单词</p>
+</li>
+<li>
+<p>贪婪与懒惰</p>
+<p>与Word中不同，正则表达式支持贪婪或者懒惰匹配</p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>*?</code></td>
+<td style="text-align:left">重复任意次，但尽可能少重复</td>
+</tr>
+<tr>
+<td><code>+?</code></td>
+<td style="text-align:left">重复1次或更多次，但尽可能少重复</td>
+</tr>
+<tr>
+<td><code>??</code></td>
+<td style="text-align:left">重复0次或1次，但尽可能少重复</td>
+</tr>
+<tr>
+<td><code>{n,m}?</code></td>
+<td style="text-align:left">重复n到m次，但尽可能少重复</td>
+</tr>
+<tr>
+<td><code>{n,}?</code></td>
+<td style="text-align:left">重复n次以上，但尽可能少重复</td>
+</tr>
+</tbody>
+</table>
+<p>例如，要匹配<code>looootloooot</code>，<code>l.*t</code>会匹配<code>looootloooot</code>，而<code>l.*?t</code>则只会匹配<code>loooot</code>。</p>
+<p>例如，要匹配重复片段，<code>\b(.+?)\b( *\b\1\b)+</code>，由于无法确定片段的组成，因此只能借助非贪婪和单词边界判断。</p>
+</li>
+<li>
+<p>字符编码</p>
+<p>使用<code>\u</code>后面跟上4位的16进制数，可以匹配一个unicode字符，比如匹配中文：<code>[一-龥]</code>，即unicode编码<code>[\u4e00-\u9fa5]</code>。字符的unicode编码可以在上一章节的链接中查找到。</p>
+</li>
+<li>
+<p>平衡组</p>
+<p>平衡组可以对配对括号进行检验，一个很实在的应用就是返回一个字符串里最长的html标签。</p>
+</li>
+</ol>
+<h2 id="%E5%8F%82%E8%80%83">参考</h2>
+<ul>
+<li>
+<p>正则表达式30分钟入门教程: http://deerchao.net/tutorials/regex/regex.htm</p>
+</li>
+<li>
+<p>正则表达式菜鸟教程: http://www.runoob.com/regexp/regexp-syntax.html</p>
+</li>
+<li>
+<p>Notepad++: https://notepad-plus-plus.org/</p>
+</li>
+<li>
+<p>熟练掌握正则表达式的方法还是多写多练，多读</p>
+</li>
+</ul>
+<h2 id="%E7%BB%83%E4%B9%A0">练习</h2>
+<ol>
+<li>
+<p>数字，包括整数和小数</p>
+<p><code>[0-9]+(\.[0-9]+)?</code></p>
+<p>以上的正则会匹配英文代号如<code>H7N9</code>中的<code>7</code>和<code>9</code>，怎样解决？(<code>\b</code>要考虑中文)</p>
+</li>
+<li>
+<p>英文缩写，骆驼拼写等特殊单词</p>
+<p><code>\b[A-Z]{2,}\b</code> <code>\b([A-Z][a-z]+){2,}\b</code></p>
+</li>
+<li>
+<p>带有连字符的英文单词，包括化合物名字</p>
+<p><code>\b([A-Za-z0-9]+|[0-9]+(,[0-9]+)*)(\-[A-Za-z0-9]+|\-[0-9]+(,[0-9]+)*)+\b</code></p>
+<p>可以匹配：
+<code>5-year</code>, <code>long-term</code>, <code>Laurence-Moon-Biedl</code></p>
+</li>
+<li>
+<p>中文中含有的英文单词</p>
+<p><code>(?&lt;=[一-龥]|\b)([A-Za-z]{2,})(?=[一-龥]|\b)(?=.* \|\|\| )</code></p>
+<p>在Notepad++/Antconc中，上述表达式不能运行，这是因为在大多数语言中，正则的后向查找零宽断言<code>(?&lt;=exp)</code>不支持变长度。所以最好修改为：</p>
+<p><code>(?&lt;=[一-龥])([A-Za-z]{2,})(?=[一-龥]|\b)(?=.* \|\|\| )</code></p>
+<p>在Notepad++/Antconc中，<code>[一-龥]</code>对应的<code>[\u4e00-\u9fa5]</code>不能使用，应当采用<code>[\x{4e00}-\x{9fa5}]</code></p>
+<p>替换时可以<code>&lt;x1&gt;$1&lt;/x1&gt;</code>对想要的字段进行标记</p>
+</li>
+<li>
+<p>中英对照的单词、数字</p>
+<p><code>([A-Za-z]+)(?=.* \|\|\| .*\b\1\b)</code></p>
+<p>替换时可以<code>&lt;x1&gt;$1&lt;/x1&gt;</code>对想要的字段进行标记</p>
+</li>
+</ol>
+
+</body>
+</html>
