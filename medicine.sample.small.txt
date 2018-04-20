@@ -1,4 +1,4 @@
-广东健康汉族人群GSTA1基因多态性分布与日本人相似,但与美国白人、美国黑人存在差异。 ||| The GSTA1 gene polymorphism in Guangdong Han population is similar to that in Japanese population,but significantly different form that in America white and black.
+﻿广东健康汉族人群GSTA1基因多态性分布与日本人相似,但与美国白人、美国黑人存在差异。 ||| The GSTA1 gene polymorphism in Guangdong Han population is similar to that in Japanese population,but significantly different form that in America white and black.
 家族性内脏淀粉样变性病 ||| familial visceral amyloidosis
 冠状动脉前丛 ||| plexus coronarius anterior
 低脂肪和低胆固醇 ||| LFC; low fat and cholesterol
@@ -41,7 +41,7 @@
 前胶原蛋白N-蛋白酶 ||| Procollagen N-proteinase
 心功能代偿期 ||| cardiac functional compensatory period
 手法调整脊椎解除腰膝腿足疼痛 ||| Treatment of pain of the lumbus, knee, leg and foot through vertebral adjustment with manipulation
-新生儿窒息血糖监测的临床意义 ||| Measurement and clinical significance of blood sugar in apneic neonate
+<num>1.57</num>新生儿窒息血糖监测的临床意义 ||| Measurement and clinical significance of blood sugar in apneic neonate
 锁骨骨折钢针内固定术后向后移针原因分析及防治 ||| Clavicular fracture fixation pins pushed to the sidelines after needle Analysis and Prevention
 先天性牙釉质发育不全 ||| Congenital enamel hypoplasia
 叶酸受体（FR） ||| human gastric cancer SGC-7901 cell
@@ -52,7 +52,7 @@
 射频疗法 ||| radiofrequency therapy
 新型泪道探通引流装置的临床应用探讨 ||| Application of a new nasal lacrimal drainadge device in treatment of lacrimal duct diseases
 微小染色体支持蛋白2 ||| Minichromosome maintenance protein 2
-方法将NZB/NZWF1狼疮模型鼠随机分为模型对照组、中药小剂量组、中药大剂量组和强的松组,灌胃给药54d; ||| Methods NZB/NZW F1 rats were administered with LCG 2.95?g/kg or 11.8?g/kg for 54?days.
+方法将NZB/NZWF1狼疮模型鼠随机分为模型对照组、中药小剂量组、中药大剂量组和强的松组,灌胃给药54d; ||| Methods NZB/NZW F1 rats were administered with LCG <num>2.95</num>?g/kg or <num>11.8</num>?g/kg for 54?days.
 异常冠状动脉 ||| ACA; anomalous coronary artery
 免疫肿瘤排斥 ||| immunologic tumor rejection
 垂体-泌乳素瘤综合征 ||| pituitary prolactinoma syndrome; PPS
@@ -77,7 +77,7 @@
 内皮依赖性舒张 ||| endothelium-dependent relaxation
 子宫内粘连综合征 ||| IAS; intrauterine adhesion syndrome
 抗菌药物使用率98%,治疗用药31%,预防用药69%; ||| The incidence of antibiotic use was 98%,31% of which was intended for active treatment,and 69% for preventive regimen;
-各离体骨BMD值的批内CV:腰椎为1.58%、左侧股骨为0.90%、右侧股骨为0.86%; ||| The short-term CVs of BMD measurements in different regions by DXA were as follows,1.58%for lumbar vertebra(L 5 ),0.90%for left femur,and0.86%for right femur,respectively.
+各离体骨BMD值的批内CV:腰椎为<num>1.58</num>%、左侧股骨为<num><num>0.90</num></num>%、右侧股骨为<num>0.86</num>%; ||| The short-term CVs of BMD measurements in different regions by DXA were as follows, %for lumbar vertebra(L 5 ),<num><num>0.90</num></num>%for left femur,and<num>0.86</num>%for right femur,respectively.
 工娱活动 ||| Recreation therapy
 成人股骨头缺血坏死早期的影像学诊断进展 ||| Progress of image diagnosis in ischemic necrosis of adult early ischemic necrosis of the femoral head
 人源性丙肝病毒抗体轻链基因表达载体是高效的,为下一步构建丙肝病毒抗体F ab段基因重组载体奠定了基础。 ||| The expression vector of humanized antibody light chain gene of against HCV is constructed effectively which laya solid foundation for further constructing the recombinant expression vector of humanized antibody Fab fragment against HCV.
@@ -98,7 +98,7 @@
 先天性增生 ||| Congenital hyperplasia
 结论CT扫描是椎弓峡部裂诊断的一个可靠手段，它可以将峡部裂与椎小关节同时清晰地展示于一个层面，诊断及鉴别诊断更加明确。 ||| Conclusion CT is a reliable method at diagnosis of spondylolysis, which can also protect the spondylolisthesis from spondylolysis in adolescent.
 主动脉根部扩张症 ||| Aortic root dilatation
-DP组、D组治疗3天、7天、14天后分别与治疗前比较，血清 FT4、FT3逐渐降低，T4/T3比值和rT3水平升高； ||| Symptoms were alleviated and serum PT4, FT3 Levels decreased and T4/T3 ratio, rT3 level increased significantly in group DP and group D after treatment,compared with provious treatment(P<0.01);
+DP组、D组治疗3天、7天、14天后分别与治疗前比较，血清 FT4、FT3逐渐降低，T4/T3比值和rT3水平升高； ||| Symptoms were alleviated and serum PT4, FT3 Levels decreased and T4/T3 ratio, rT3 level increased significantly in group DP and group D after treatment,compared with provious treatment(P<<num>0.01</num>);
 手背静脉 ||| Hand vein
 低浓度铅对女工高血压影响探讨 ||| Investigation of influence of low concentration lead on hypertension with female workers
 放射受体显像 ||| Receptor imaging
@@ -124,7 +124,7 @@ DP组、D组治疗3天、7天、14天后分别与治疗前比较，血清 FT4、
 抗原结合分段 ||| fragment antigen-binding
 宫颈液基细胞学检查 ||| Liquid - bsed cytologic test
 但是作者认为左旋多巴或DBS治疗后出现的感情变化不能简单的反映这是动作功能改善的一个反应。 ||| and inability to blind patients to the stimulation state.However, the authors suggest that the affective changes following levodopa or DBS did not simply reflect a reaction to improved motor function.
-相应的，有8.4%的关节成形术患者和13.7%的关节融合术患者疼痛恶化了至少1级。 ||| Conversely, the pain scores for 8.4% of those who had an arthroplasty and 13.7% of those who had arthrodesis worsened by at least one grade.
+相应的，有<num>8.4</num>%的关节成形术患者和<num>13.7</num>%的关节融合术患者疼痛恶化了至少1级。 ||| Conversely, the pain scores for <num>8.4</num>% of those who had an arthroplasty and <num>13.7</num>% of those who had arthrodesis worsened by at least one grade.
 佐-埃二氏综合征 ||| ZE syndrome; ZES; Zollinger-Ellison syndrome
 吸氧疗法 ||| oxygen therapy
 人卵泡刺激激素 ||| follicle-stimulating hormone, buman
@@ -134,7 +134,7 @@ DP组、D组治疗3天、7天、14天后分别与治疗前比较，血清 FT4、
 月经期间出血 ||| intermenstrual flow
 Ⅰ型血管紧张素Ⅱ受体 ||| angiotensin Ⅱ type 1 receptor gene
 乳头肌慢性纤维化 ||| chronic fibrosis of papillary muscle
-其中 13例在瘤体表面皮下注射99Tcm DTPA 人血清白蛋白 [HSA ,5 5 5MBq(0 5ml) ]; 5 0例在瘤周乳腺组织内注射未过滤99Tcm 硫胶体 [SC ,92 5MBq(4ml) ,分 4点 ]; ||| 13 patients were subdermally injected with 55.5 MBq (0.5 ml) 99Tcm-DTPA-human serum albumin (HSA) on the surface of the lesion, 50 patients with 92.5 MBq (4 ml) unfiltered 99Tcm-sulfur colloid (SC) in four divided doses around the lesion and 54 patients in the upper part of the lesion with the same volume of the SC in one-point-injection.
+其中 13例在瘤体表面皮下注射99Tcm DTPA 人血清白蛋白 [HSA ,5 5 5MBq(0 5ml) ]; 5 0例在瘤周乳腺组织内注射未过滤99Tcm 硫胶体 [SC ,92 5MBq(4ml) ,分 4点 ]; ||| 13 patients were subdermally injected with <num>55.5</num> MBq (<num>0.5</num> ml) 99Tcm-DTPA-human serum albumin (HSA) on the surface of the lesion, 50 patients with <num>92.5</num> MBq (4 ml) unfiltered 99Tcm-sulfur colloid (SC) in four divided doses around the lesion and 54 patients in the upper part of the lesion with the same volume of the SC in one-point-injection.
 双核金属酞菁;INDO／S;分子氧的活化;光谱测定; ||| Keywords binuclear metallo phthalocyanine;INDO/S;activation of O_2 molecule;spectradetermining;
 分次口服胆囊胆管造影 ||| fractionated oral cholecysto-cholangiography
 摘要 目的 回顾性分析169例终末期肾病（ESRD）维持性血液透析（MHD）患者的生存率及死亡原因。 ||| Abstract Objective To analyse the survival rate and cause of death of the patients of end stage renal disease (ESRD)on maintenance hemodialysis(MHD).
@@ -160,7 +160,7 @@ DP组、D组治疗3天、7天、14天后分别与治疗前比较，血清 FT4、
 可溶性肿瘤坏死因子受体Ⅱ ||| soluble tumor necrosis factor receptor Ⅱ
 双侧先天性增大 ||| Bilateral congenital enlargement
 急性肺损伤评分 ||| ALI SCORE
-药敏分析，假单胞菌属、克雷白菌属、肠杆菌科细菌对氨苄西林的耐药率超过90%，对头孢唑啉的耐药率分别为96.5%、65%和100%。 ||| Drug sensitive tests showed over 90% of pseudomonas, klebsiella and enterobacteriaceae were resistant to ampicillin, while the resistant to cephazoline were 96.5%, 65%, and 100% respectively.
+药敏分析，假单胞菌属、克雷白菌属、肠杆菌科细菌对氨苄西林的耐药率超过90%，对头孢唑啉的耐药率分别为<num>96.5</num>%、65%和100%。 ||| Drug sensitive tests showed over 90% of pseudomonas, klebsiella and enterobacteriaceae were resistant to ampicillin, while the resistant to cephazoline were <num>96.5</num>%, 65%, and 100% respectively.
 引起CWI病因有全身低血压，颈动脉狭窄或闭塞，微栓塞。 ||| CWI is caused by systemic hypotension,carotid stemosis or occlusion,microembolisn.
 人垂体腺瘤 ||| human pituitary adenomas
 康复疗效 ||| rehabilitation effect
@@ -213,7 +213,7 @@ MSSA除青霉素、红霉素和庆大霉素外，体外抗菌活性均较好。 
 成功从胃癌细胞株AGS和胃癌及其癌旁组织提取到有较高纯度的完整RNAs,电泳显示清晰的18S和28S条带； ||| Intact RNAs of high purities with clear 18S and 28S bands were successfully extracted from AGS, gastric cancer specimen and its peritumor tissue.
 代谢综合征周围动脉硬化特征及对其综合干预的影响 ||| Effects of comprehensive intervention in peripheral arteriosclerotic occlusive disease of patients with metabolic syndrome
 饮食因素对不同类型尿结石的影响 ||| STUDY ON EFFECTS OF DIETARY FACTOR ON DIFFERENT TYPES OF URINARY CALCULI
-BLM组bcl- 2蛋白表达阳性率显著高于LMS组 (P <0 .0 1)。 ||| The positive Bcl 2 protein expression rate of BLM was clearly higher than that of LMS ( P <0.01).
+BLM组bcl- 2蛋白表达阳性率显著高于LMS组 (P <0 .0 1)。 ||| The positive Bcl 2 protein expression rate of BLM was clearly higher than that of LMS ( P <<num>0.01</num>).
 动脉支架成形术 ||| carotid angioplasty and stenting
 主要内在蛋白 ||| major intrinsic protein
 急性肾上腺功能不全 ||| acute adrenal insufficiency
@@ -241,7 +241,7 @@ BLM组bcl- 2蛋白表达阳性率显著高于LMS组 (P <0 .0 1)。 ||| The posit
 插入性房性并行心律性心搏 ||| interpolated atrial parasystolic beats
 结论：CT扫描对眼球突出的价值在于眼球突出的病因诊断及病变的来源、范围显示。 ||| Conclusion: The CT scanning has important value for etiological diagnosis and displaying the circumsciption of pathological changes of exophalmos.
 手指动脉直接修复术 ||| Direct repair of artery of finger
-治疗组治疗前后比较,P<0.01,亦有显著性差异。 ||| Fonzylane and hyperbaric oxygen were given to the patients in the treatment group on the basis of traditional therapy.
+治疗组治疗前后比较,P<<num>0.01</num>,亦有显著性差异。 ||| Fonzylane and hyperbaric oxygen were given to the patients in the treatment group on the basis of traditional therapy.
 喉结皮下组织 ||| Subcutaneous tissue of laryngeal prominence
 主动脉综合征 ||| aortic syndrome
 乳房块切除活组织检查 ||| Excisional biopsy of breast mass
@@ -261,7 +261,7 @@ BLM组bcl- 2蛋白表达阳性率显著高于LMS组 (P <0 .0 1)。 ||| The posit
 性联遗传性疾病 ||| sex-linked genetic disorders
 结论 实验证实了临床疝出物是颊脂体而不是颊脂垫，合理的命名应是创伤性颊脂体疝。 ||| Conclusion The herniated tissue of clinical case is the corpus adiposum buccae but not the buccal fat pad, and the rational name should be traumatic herniation of corpus adiposum buccae.
 抗淋巴细胞血浆 ||| ALP; antilymphocyte plasma; AP
-慢性肾衰竭血液透析患者血清Leptin水平与体重指数(BMI)、脂肪百分比(%Fat)呈正相关(分别为r=0.605、P<0.001;r=0.779、P<0.001); 与瘦体重呈负相关(r=-0.731,P<0.001); ||| Serum leptin levels were positively correlated with BMI (r= 0.605, P < 0.001), %Fat (r=0.779, P<0.001), and were reversely correlated with LBM (r = -0.731, P<0.001) in HD patients;
+慢性肾衰竭血液透析患者血清Leptin水平与体重指数(BMI)、脂肪百分比(%Fat)呈正相关(分别为r=<num>0.605</num>、P<<num>0.001</num>;r=<num>0.779</num>、P<<num>0.001</num>); 与瘦体重呈负相关(r=-<num>0.731</num>,P<<num>0.001</num>); ||| Serum leptin levels were positively correlated with BMI (r= <num>0.605</num>, P < <num>0.001</num>), %Fat (r=<num>0.779</num>, P<<num>0.001</num>), and were reversely correlated with LBM (r = -<num>0.731</num>, P<<num>0.001</num>) in HD patients;
 (=clinical procedures) 临床处理 ||| Clin proc.
 卵巢炎性囊肿 ||| inflammatory cyst of ovary
 其它症状包括头痛、发烧及腹痛 ||| Other symptoms include headache, fever, and abdominal cramps
@@ -404,7 +404,7 @@ ApoM可能参与了体内的胆固醇代谢 ,并与冠心病的形成与发展�
 复配配方DY8对黄曲条跳甲成虫的呼吸抑制效果优于鱼藤酮，前者显著增加黄曲条跳甲成虫的呼吸熵，严重干扰了黄曲条跳甲的呼吸节律，并且氟虫腈对鱼藤酮具有增效作用。 ||| And inhibition of DY8 was greater than that of rotenone against the adults of P. striolata.DY8 was found to possess stronger effect than that of rotenone.
 手指远端指骨部分切除术 ||| Partial excision of bone of distal phalanx of finger
 急性免疫性荨麻疹 ||| Acute immunologic urticaria
-CB在NEC中阴性表达,ICC组织中CB蛋白阳性表达率55.56%(25/45)高于C IN组30.15%(19/63),差异有统计学意义(P<0.05)。 ||| The expressions of CB protein were negative in NCE. The positive rates of expression of CB protein in ICC was higher 55.56%(25/45) than that 30.15%(19/63) in CIN and there was a significant difference between them(P<0.05).
+CB在NEC中阴性表达,ICC组织中CB蛋白阳性表达率<num>55.56</num>%(25/45)高于C IN组<num>30.15</num>%(19/63),差异有统计学意义(P<<num>0.05</num>)。 ||| The expressions of CB protein were negative in NCE. The positive rates of expression of CB protein in ICC was higher <num>55.56</num>%(25/45) than that <num>30.15</num>%(19/63) in CIN and there was a significant difference between them(P<<num>0.05</num>).
 结论：高压静电联合川芎嗪和甲钴胺能够更有效减轻DPN患者的临床症状。 ||| Conclusion High voltage static combining ligustrazine and mecobalamine injection can relieve the clinical symptoms of the patients with DPN more effectively.
 慢性乙型肝炎患者健康信念与治疗依从性的相关性分析 ||| Health Beliefs in Patients with Chronic Hepatitis-B and Their Relationship with Patients'Treatment Compliance
 慢性发生器衰竭 ||| chronic generator failure
@@ -416,14 +416,14 @@ CB在NEC中阴性表达,ICC组织中CB蛋白阳性表达率55.56%(25/45)高于C 
 产妇血、羊水和新生儿脐血瘦素水平与其体重关系的研究 ||| Study on Relationship between Levels of Leptin in Maternal Blood, Amniotic Fluid, and Umbilical Blood and Newborn's Weight
 家族性醛固酮缺乏症 ||| familial aldosterone deficiency
 一夜之间痤疮补丁和其他独特的治疗痤疮 ||| Over night acne patches and other unique acne treatments
-同时有2个或3个指标表达异常者淋巴结转移率为58.8%,只有一个指标表达异常或3个指标均不表达异常者的淋巴结转移率30.8%,两者比较差异具有显著性(P<0.01)。 ||| Lymphatic metastasis rate in cases with abnormal expressions of two or three indicators (58.8%) was higher than that in cases without abnormal expression or with abnormal expression of one indica-tor (30.8%) (P < 0.01).
+同时有2个或3个指标表达异常者淋巴结转移率为<num>58.8</num>%,只有一个指标表达异常或3个指标均不表达异常者的淋巴结转移率<num>30.8</num>%,两者比较差异具有显著性(P<<num>0.01</num>)。 ||| Lymphatic metastasis rate in cases with abnormal expressions of two or three indicators (<num>58.8</num>%) was higher than that in cases without abnormal expression or with abnormal expression of one indica-tor (<num>30.8</num>%) (P < <num>0.01</num>).
 多重耐药家族 ||| multidrug resistance family
-4鄂征.细胞同步化法.鄂征主编.组织与细胞培养急诊技术.第3版.北京：人民卫生出版社，1994.201. ||| 2 Kulik TJ, Alvarado SP. Effect of stretch on growth and collagen synth esis in cu ltured rat and lamb pulmonary arterial smooth muscle cells. J Cell Physiol, 1993 , 157(3):615.
+4鄂征.细胞同步化法.鄂征主编.组织与细胞培养急诊技术.第3版.北京：人民卫生出版社，<num>1994.201</num>. ||| 2 Kulik TJ, Alvarado SP. Effect of stretch on growth and collagen synth esis in cu ltured rat and lamb pulmonary arterial smooth muscle cells. J Cell Physiol, 1993 , 157(3):615.
 光滑粒子动力学 ||| Smoothed Particle Hydrodynamics (SPH)
 剖宫产术胎儿脐动脉血气值与Apgar评分相关性及临床意义 ||| Correlation and Clinical Significance Between Blood Gas Value of Fetal Navel Artery and Apgar Score
 射频组肿瘤经射频治疗后发生凝固性坏死，凝固性坏死边缘区肿瘤组织可见明显的细胞凋亡及细胞坏死改变。 ||| The morphological change in treatment center of RFA group was coagulative necrosis.
 先天性心静脉发育不全 ||| Congenital hypoplasia of cardiac vein
-所有病例平均随访14.4个月(2个月至5年),6个月功能无异常:非手术治疗组为67.8%,DHS组为92.3%,PFN组为96.7%。 ||| The patients were followed up for 14. 4 months on the average(2 months to 5 years) ,the excellent and good rate of no-surgery group was 67.8% . the excellent and good rate of DHS group was 92. 3% , the excellent and good rate of PFN group was 96. 7% .
+所有病例平均随访<num>14.4</num>个月(2个月至5年),6个月功能无异常:非手术治疗组为<num>67.8</num>%,DHS组为<num>92.3</num>%,PFN组为<num>96.7</num>%。 ||| The patients were followed up for 14. 4 months on the average(2 months to 5 years) ,the excellent and good rate of no-surgery group was <num>67.8</num>% . the excellent and good rate of DHS group was 92. 3% , the excellent and good rate of PFN group was 96. 7% .
 妊娠母马血清 ||| pregnant mare serum
 他于八月不幸病故，年仅41岁，病因是神经系统的渐进性退化。 ||| Sadly he died in August, aged 41, from the disease that causes progressive deterioration of the nervous system.
 先天性腔静脉异常 ||| Congenital anomaly of vena cava
@@ -448,7 +448,7 @@ CB在NEC中阴性表达,ICC组织中CB蛋白阳性表达率55.56%(25/45)高于C 
 前鼻棘 ||| spina nasalis anterior
 斑块分化 ||| differentiation between patches and patch gaps
 BNF具有设计独特、内固定可靠、主钉全程均可交锁的特点 ,能满足自股骨转子下到股骨髁之间一处或多处骨折内固定需要。 ||| The BNF has such goods as unique decision,reliable fixation and the lockings can be get in any part of the nail which can meet the fixation from subtrochanteric to femoral condyle.
-进行部份肾脏切除者共有20.5%的男性，22.4%年纪在 66-69岁，女性有16%，年纪在85岁以上者只有7.1%。 ||| A total of 20.5% of men and 22.4% of patients, ages 66 to 69 years, had partial nephrectomy, compared with 16% of women and only 7.1% of patients aged 85 and older.
+进行部份肾脏切除者共有<num>20.5</num>%的男性，<num>22.4</num>%年纪在 66-69岁，女性有16%，年纪在85岁以上者只有<num>7.1</num>%。 ||| A total of <num>20.5</num>% of men and <num>22.4</num>% of patients, ages 66 to 69 years, had partial nephrectomy, compared with 16% of women and only <num>7.1</num>% of patients aged 85 and older.
 另一些实验表明,笑看起读厂来能够减轻身体上的疼痛。 ||| Other tests have shown that laughter appears to be able to reduce the effect of pain on the body.
 先天性髌骨脱位 ||| congenital dislocation of patella
 原发性肝癌（HCC） ||| Hepatocellular Carcinoma (HCC)
@@ -498,7 +498,7 @@ C蛋白缺乏症 ||| protein C deficiency
 改良除皱术的临床应用 ||| The application of the modified eliminating wrinkle operation clinically
 尿道部分梗阻 ||| Partial obstruction of the urinary tract
 迪谢纳-阿二氏假性肌肥大型营养不良 ||| Duchenne-Aran spinal muscular atrophy
-FK506组震颤发生率较CsA组高(P<0.01),但高血压发生率显著低于CsA组(P<0.05)。 ||| Tremor obviously increased (P<0.01) and hypertension obviously decreased (P<0.05) in the FK506 group compared with the CsA group.
+FK506组震颤发生率较CsA组高(P<<num>0.01</num>),但高血压发生率显著低于CsA组(P<<num>0.05</num>)。 ||| Tremor obviously increased (P<<num>0.01</num>) and hypertension obviously decreased (P<<num>0.05</num>) in the FK506 group compared with the CsA group.
 冠心病介入诊疗后的胆固醇结晶栓塞 ||| Cholesterol crystal embolism after coronary intervention
 干扰素类／针灸效应 ||| Interferons/acup-mox elf
 口-面-趾综合征 ||| Oral-facial-digital syndrome
@@ -528,7 +528,7 @@ Bosworth手术用于脊柱假关节 ||| Bosworth operation for pseudoarthrosis o
 微波照射治疗糖尿病性创面的临床观察 ||| Clinical Observation of Microwave Therapy in Treatment of Diabetic Surface of Wound
 心肌心内膜硬化 ||| Endomyocardial sclerosis
 乳房皮肤皮脂囊肿 ||| Sebaceous cyst of skin of breast
-小鼠腹腔巨噬细胞（RAW264.7） ||| RAW 264.7
+小鼠腹腔巨噬细胞（RAW<num>264.7</num>） ||| RAW <num>264.7</num>
 内镜处理 ||| endoscopic approach; endoscopic management; endoscopic treatment
 基因组差异甲基化片段筛选技术 ||| Genome-Wide Screening Methods for Differentially Methylated DNA Fragments
 人体心房肌 ||| human atrial myocyte
@@ -538,7 +538,7 @@ Bosworth手术用于脊柱假关节 ||| Bosworth operation for pseudoarthrosis o
 小鼠肝癌H22细胞克隆株 ||| murine hepatoma 22 clonal cell strains
 新型鸭肝炎病毒 ||| new type duck hepatitis virus
 异常冠状动脉结扎术 ||| Ligation of anomalous coronary artery
-社交紊乱型人格障碍(F60.2) ||| dissocial personality disorder
+社交紊乱型人格障碍(F<num>60.2</num>) ||| dissocial personality disorder
 抗组胺剂药片或糖浆。这些药可以减轻组胺活动对身体的影响。它们会减轻症状。 ||| Antihistamine tablets or syrup (eg loratadine, cetirizine). These lessen the allergic reaction by blocking the actions of histamine. They relieve hayfever symptoms.
 在连续或超过 2 4hVEEG监测中 ,18例有临床发作 ( 6 9% ) ,其中 1例简单部分性发作 ,6例复杂部分性发作 ,9例全身强直发作 ,2例失神发作。 ||| Clinical seizure were recorded in 18 patients during continous VEEG monitoring more than twenty-four hours,including simple partial seizure in 1 patient,complex partial seizures in 6 patients,generalized seizure in 9 patients and absence seizure in 2 patients.
 慢性肺源性心脏病心力衰竭 ||| heart failure induced by chronic pneumocardial disease
@@ -550,7 +550,7 @@ Bosworth手术用于脊柱假关节 ||| Bosworth operation for pseudoarthrosis o
 放射性核素肝扫描 ||| radioisotopic hepatic scanning
 戈林综合征 ||| basal cell nevus syndrome; Gorlin syndrome
 手术后呼吸处理 ||| postoperative respiratory treatment; PRT
-心肌活性在用药前与后2个阶段比较 ,时间与位移的差别有统计学意义(P<0.01) ,检测心肌活性的敏感性96 43% ,特异性66 67% ,准确性91 18% ,阳性预测值93 10%。 ||| There was a significant difference on the display of the timing and magnitude of endocardial motion between pre and post DSE(P<0.01). Sensitivity,specificity,accuracy,and positive predictive of CK images in distinguishing viability from myocardial infarction were96.43%,66.67%,91.18%,and93.10%respectively.
+心肌活性在用药前与后2个阶段比较 ,时间与位移的差别有统计学意义(P<<num>0.01</num>) ,检测心肌活性的敏感性96 43% ,特异性66 67% ,准确性91 18% ,阳性预测值93 10%。 ||| There was a significant difference on the display of the timing and magnitude of endocardial motion between pre and post DSE(P<<num>0.01</num>). Sensitivity,specificity,accuracy,and positive predictive of CK images in distinguishing viability from myocardial infarction were<num>96.43</num>%,<num>66.67</num>%,<num>91.18</num>%,and<num>93.10</num>%respectively.
 无功能性垂体瘤 ||| pituitary tumor, nonfunctioning
 柚总黄酮对中枢神经系统的一般药理作用观察 ||| THE GENERAL PHARMACOLOGICAL ACTION OF CITRUS FLAVONOIDS ON CENTRAL NERVOUS SYSTEM
 体循环血管总阻力 ||| total systemic vascular resistance; TSVR
@@ -680,7 +680,7 @@ CSF检查4例蛋白轻度增高，2例寡克隆抗体区带(+)。 ||| CSF reveal
 急性胰腺炎相关性肺损伤 ||| Acute pancreatitis-related lung injury
 小肠孤立淋巴样小结 ||| Solitary lymphoid nodule of small intestine
 Annexin-V凋亡蛋白 ||| Annexin-V apoptosis protein
-历时 1年建成 JAR/ MTX细胞株 ,耐药性稳定 ,耐药指数 7.3,对紫杉醇、长春新碱有交叉耐药。 ||| JAR/MTX cell line was established with stable MTX-resistance (resistance index to MTX was 7.3) and cross-resistant to TAX and VCR.
+历时 1年建成 JAR/ MTX细胞株 ,耐药性稳定 ,耐药指数 <num>7.3</num>,对紫杉醇、长春新碱有交叉耐药。 ||| JAR/MTX cell line was established with stable MTX-resistance (resistance index to MTX was <num>7.3</num>) and cross-resistant to TAX and VCR.
 低过敏材料外科带 ||| hypo-allergenic surgical tape
 结论1，6-二磷酸果糖(FDP)能显著改善新生儿窒息致心肌损害。 ||| Conclusion Fructose-l, 6-diphosphate (FDP) could significantly improve myocardial injury of neonatal asphyxia.
 感觉周围神经病 ||| Sensory peripheral neuropathy
@@ -704,7 +704,7 @@ Annexin-V凋亡蛋白 ||| Annexin-V apoptosis protein
 乙醇沉淀时间 ||| ethanol precipitation time
 恶性肠道组织细胞增多症 ||| malignant histiocytosis of the intestine; MHI
 掌间隙感染 ||| infection of palmar spaces
-患者腹腔冲洗液中STAT3 mRNA和CEA mRNA的阳性检出率分别为43.9%和48.5%,明显高于PLC(31.8%)(P<0.01),且阳性率随肿瘤浸润深度、TNM分期及病程增加而增加。 ||| The positive rates of STAT3 mRNA and CEA mRNA in peritoneal washings were 43.9% and 48.5%,respectively. The positive rates of STAT3 mRNA and CEA mRNA were significantly higher than those of PLC(31.8%). The positive rates of STAT3 mRNA and CEA mRNA were concurrently increased with the depth of tumor invasion,TNM staging and pathogenesis.
+患者腹腔冲洗液中STAT3 mRNA和CEA mRNA的阳性检出率分别为<num>43.9</num>%和<num>48.5</num>%,明显高于PLC(<num>31.8</num>%)(P<<num>0.01</num>),且阳性率随肿瘤浸润深度、TNM分期及病程增加而增加。 ||| The positive rates of STAT3 mRNA and CEA mRNA in peritoneal washings were <num>43.9</num>% and <num>48.5</num>%,respectively. The positive rates of STAT3 mRNA and CEA mRNA were significantly higher than those of PLC(<num>31.8</num>%). The positive rates of STAT3 mRNA and CEA mRNA were concurrently increased with the depth of tumor invasion,TNM staging and pathogenesis.
 小脑性综合征 ||| cewrebellar syndrome
 彩色多普勒阴道超声 ||| transvaginal color Doppler sonography
 心室压力上升速率 ||| rate of ventricular pressure rising
@@ -812,7 +812,7 @@ Annexin-V凋亡蛋白 ||| Annexin-V apoptosis protein
 冠状动脉成形术 ||| coronary angioplasty
 转基因生防菌 ||| Transgenic biocontrol bacterial
 升主动脉血管切开术 ||| Angiotomy of ascending aorta
-对23例患者的63个冠进行临床评价,可接受率为96.9%,满意率为89.9%。 ||| Of the 63 crowns examined in this study, 96.9% were rated as acceptable and 89.9% as satisfaction inaccordance to the changed CDA quality evaluating system.
+对23例患者的63个冠进行临床评价,可接受率为<num>96.9</num>%,满意率为<num>89.9</num>%。 ||| Of the 63 crowns examined in this study, <num>96.9</num>% were rated as acceptable and <num>89.9</num>% as satisfaction inaccordance to the changed CDA quality evaluating system.
 慢前列腺炎 ||| chronic prostatitis
 感觉缺乏综合征 ||| SDS; sensory deprivation syndrome
 定向活检 ||| Stereotaxic biopsy
@@ -829,7 +829,7 @@ Annexin-V凋亡蛋白 ||| Annexin-V apoptosis protein
 放射性核素肿瘤成显像 ||| radionuclide tumor imaging
 总游离氨基酸 ||| total free amino acid
 慢性肾脏疾患中的钙与磷酸盐代谢管理 ||| Calcium And Phosphate Metabolism Management In Chronic Renal Disease
-CLT组及LDLT组移植物存活率、病人存活率、ACR发生率、ACR多次发生率、对激素治疗无效率分别是 72%和 78%、77%和 78%、48%和 41%、2 0%和 10%、11%和 4% (两组比较P >0 .0 5 )。 ||| The graft survival rate, patient survival rate, ACR rate, ACR multiple incidence rate, and no response rate to steroid therapy in CLT and LDLT groups were 72% vs 78%, 77% vs. 78%, 48% vs. 41%, 20% vs. 10%, and 11% vs. 4% ( P >0.05).
+CLT组及LDLT组移植物存活率、病人存活率、ACR发生率、ACR多次发生率、对激素治疗无效率分别是 72%和 78%、77%和 78%、48%和 41%、2 0%和 10%、11%和 4% (两组比较P >0 .0 5 )。 ||| The graft survival rate, patient survival rate, ACR rate, ACR multiple incidence rate, and no response rate to steroid therapy in CLT and LDLT groups were 72% vs 78%, 77% vs. 78%, 48% vs. 41%, 20% vs. 10%, and 11% vs. 4% ( P ><num>0.05</num>).
 结论椎弓根钉钩板(PSHP)复位固定治疗腰椎滑脱可以最大限度的保留脊柱功能，只要手术适应征选择正确，可以取得良好的长期疗效。 ||| Conclusion spinal function was kept and good clinical results was obtained for patiens with lumbar spondylolisthesis by using PSHP, the choice of operation indiction was important.
 动脉硬化与心血管疾病 ||| arteriosclerotic and cardiovascular disease
 其他侵袭性链球菌感染 ||| OISI Other invasive streptococcal infections
@@ -872,7 +872,7 @@ CLT组及LDLT组移植物存活率、病人存活率、ACR发生率、ACR多次�
 心室质量 ||| ventricular mass; VM
 大脑总胆固醇含量 ||| Brain total cholesterol
 术后非切口疼痛 ||| Postoperative pains of non-incision
-封堵术后1个月较术前差异具有显著性意义,EDDEFFS(P<0.05),EDV(P<0.001)ESV(P<0.05)SV(P<0.001)EF,FS无明显变化; ||| TCVSD after 1 month compared with before,the figures of EDD (P< 0.05),EDV(P< 0.001),ESV(P< 0.05),SV(P< 0.001)were significant difference,but there no significant difference in EF and FS.
+封堵术后1个月较术前差异具有显著性意义,EDDEFFS(P<<num>0.05</num>),EDV(P<<num>0.001</num>)ESV(P<<num>0.05</num>)SV(P<<num>0.001</num>)EF,FS无明显变化; ||| TCVSD after 1 month compared with before,the figures of EDD (P< <num>0.05</num>),EDV(P< <num>0.001</num>),ESV(P< <num>0.05</num>),SV(P< <num>0.001</num>)were significant difference,but there no significant difference in EF and FS.
 心功能失代偿期 ||| cardiac functional decompensatory period
 含有Ki67-siRNA的重组腺病毒构建成功,其能抑制人结肠癌细胞Ki67基因表达和生长。 ||| Successful construction of the recombinant adenovirus vector containing the Ki67-siRNA gene was achieved and it can be used to significantly inhibit expression of the Ki67 gene and the growth human colon carcinoma cells.
 单纯胰腺移植 ||| Pancreas transplantation alone
@@ -954,7 +954,7 @@ CSF中可溶性ICAM 1水平的升高可能提示正在进行的免疫激活反�
 医师会不会犯下列这种错误呢?即,将患有系统性红斑狼疮病人的疾病分别诊断为关节炎、皮炎和肾病? ||| Will physicians err by assigning, for example, separate diagnoses of arthritis, dermatitis, and kidney disease to a patient who has systemic lupus erythematosus?
 慢性及晚期血吸虫病患者门脉血流动力学检测及临床意义 ||| DETECTION ON THE PORTAL SYSTEM HEMODYNAMICS OF PATIENTS WITH CHRONIC AND ADVANCED SCHISTOSOMIASIS AND ITS CLINICAL MEANING
 因为转移性乳腺癌是不可治愈的疾病（极少数病例外）药物治疗的目的在于延长患者的生命同时维持其生活质量。 ||| Because metastatic breast cancer is, with very rare exceptions, an incurable disease, the art of medicine is to provide the patient with the care most likely to prolong life while simultaneously maintaining quality of life.
-在UL组与BLM组,cyc lin G1和p16蛋白阳性表达率和表达强度均无明显差异(P>0.05)。 ||| But no significant difference was found between UL and BLM,P>0.05.Conclusion: The abnormal expression of cyclin G1 and p16 protein was associated with the pathogenesis and development of LMS.
+在UL组与BLM组,cyc lin G1和p16蛋白阳性表达率和表达强度均无明显差异(P><num>0.05</num>)。 ||| But no significant difference was found between UL and BLM,P><num>0.05</num>.Conclusion: The abnormal expression of cyclin G1 and p16 protein was associated with the pathogenesis and development of LMS.
 已证实有家族史的无瘤生存率与肿瘤的微卫星不稳定性及错配修复状态无关。 ||| The improved disease-free survival associated with a family history was independent of tumoral MSI or MMR status.
 结论:应重视在患儿用药过程中各种药物引起的药源性血尿。 ||| Conclusions: Every pediatric medicine hematuria should be paid much attention to in the application of drugs.
 后子宫旁炎 ||| posterior parametritis
@@ -995,7 +995,7 @@ c-JunN-末端激酶3 ||| c-Jun N-terminal kinase 3
 对HBeAg(+)核苷类似物初治的患者,48周时肝纤维化发生改善的患者比例ETV组为57%,LMV组为49%; 肝纤维化没变化的患者比例ETV组35%,LMV组为28%; ||| At week 48,among HBeAg(+) nucleoside-naive patients, liver fibrosis had been improved in 57% of ETV group and 49% of LMV group, showed no changes in 35% of ETV group and 28% of LMV group and became worse in 0% of ETV group and 6% of LMV group.
 实时超声(引导)抽吸活检 ||| ultrasound real-time aspiration biopsy
 切开活检 ||| open biopsy
-健康对照组血浆CGRP水平为169.58pg/ml，糖尿病组241.86pg/ml，临床期糖尿病肾病组336.57pg/ml，糖尿病肾病肾功能衰竭组425.21pg/ml。 ||| Plasma levels of CGRP were 169.58pg/ml, 241.86pg/ml, 336. 57 pg/ml, 425.21pg/ml in NC, DM, DN and DNF group respectively.
+健康对照组血浆CGRP水平为<num>169.58</num>pg/ml，糖尿病组<num>241.86</num>pg/ml，临床期糖尿病肾病组<num>336.57</num>pg/ml，糖尿病肾病肾功能衰竭组<num>425.21</num>pg/ml。 ||| Plasma levels of CGRP were <num>169.58</num>pg/ml, <num>241.86</num>pg/ml, 336. 57 pg/ml, <num>425.21</num>pg/ml in NC, DM, DN and DNF group respectively.
 右心室直径 ||| FRVD; right ventricular dimension
 先天性胆囊重复 ||| Congenital duplication of gallbladder
 晚期肺癌伴下呼吸道真菌感染126例临床分析 ||| Clinical analysis of 126 cases of advanced lung cancer accompanied with fungus infection of lower respiratory tract
@@ -1007,7 +1007,7 @@ c-JunN-末端激酶3 ||| c-Jun N-terminal kinase 3
 慢性颈淋巴结炎 ||| chronic cervical lymphadenitis
 急性非特异性膀胱炎 ||| acute nonspecific cystitis
 就无创性检查而言,在NSCLC患者术前的"N"分期中,PET检查是目前最好的辅助手段,对帮助临床医师术前评估NSCLC患者的临床分期、制定治疗策略有一定的价值。 ||| In the preoperative "N" staging of patients with NSCLC, the PET is the best nontraumatic examination at present, It is helpful in preoperative staging and making the treatment strategy.
-在乳腺癌癌细胞内可见DCNmRNA表达,阳性率为88.00%(22/25),正常乳腺腺细胞内未见DCNmRNA表达,差异具有非常显著性(P<0.01)。 ||| The expression of DCN mRNA can be found in cancer cells of the breast cancer, with a positive rate of 88.00% (22/25), and it can not be found in glandular cells of the normal breast. There was a significant difference between the two (P<0.01).
+在乳腺癌癌细胞内可见DCNmRNA表达,阳性率为<num>88.00</num>%(22/25),正常乳腺腺细胞内未见DCNmRNA表达,差异具有非常显著性(P<<num>0.01</num>)。 ||| The expression of DCN mRNA can be found in cancer cells of the breast cancer, with a positive rate of <num>88.00</num>% (22/25), and it can not be found in glandular cells of the normal breast. There was a significant difference between the two (P<<num>0.01</num>).
 他们上大学的可能性也较低,青少年抑郁症、焦虑和疲劳也跟漫长的工作时间有关。 ||| They are also less likely to go to college, Teen depression, anxiety and fatigue have been linked to long work hours, as well.
 哈-吉二氏综合征 ||| Hutchinson-Gifford syndrome
 禽博代杆菌疫苗(动) ||| Bordetella avium vaccine
@@ -1122,7 +1122,7 @@ c-JunN-末端激酶3 ||| c-Jun N-terminal kinase 3
 您的父母,兄弟姐妹是否患过这些疾病:糖尿病,肾病,心脏病,中风,高血压,冠状动脉病,精神病或癌症? ||| Has either parent or any brother or sister ever had diabetes, kidney disease, heart disease, stroke, high blood pressure, coronary artery disease, mental illness or cancer?
 子宫下段纵向缩短 ||| Longitudinal shortening of lower uterine segment
 急性增殖腺炎 ||| acute adenoiditis
-在3p21区域筛选到一个在鼻咽癌中表达下调的EST(N31985),在60.00%(3/5)的鼻咽癌细胞株及47.06%(16/34)的鼻咽癌活检组织检测到有EST(N31985)表达下调,与正常鼻咽上皮组织相比较,差异有统计学意义(P<0.05)。 ||| Comparing with expression of normal nasopharyng eal epithelia,EST(N31985)was down-reg ulated in 60.00%(3/5)nasopharyng eal carcinoma cell lines and 47.06%(16/34)nasopharyng eal carcinoma tissues (P<0.05).
+在3p21区域筛选到一个在鼻咽癌中表达下调的EST(N31985),在<num>60.00</num>%(3/5)的鼻咽癌细胞株及<num>47.06</num>%(16/34)的鼻咽癌活检组织检测到有EST(N31985)表达下调,与正常鼻咽上皮组织相比较,差异有统计学意义(P<<num>0.05</num>)。 ||| Comparing with expression of normal nasopharyng eal epithelia,EST(N31985)was down-reg ulated in <num>60.00</num>%(3/5)nasopharyng eal carcinoma cell lines and <num>47.06</num>%(16/34)nasopharyng eal carcinoma tissues (P<<num>0.05</num>).
 对妇科静脉化疗患者进行系统的静脉护理可以预防静脉炎和药物渗漏。 ||| Patients with female reproductive system tumor receiving venous chemotherapy can be prevented from phlebitis and drug exosmosis through venous nursing care.
 内镜结合中药治疗急性胆道感染的临床研究 ||| Clinical Study on Treatment of Acute Biliary Tract Infection with Biliary Drainage via Endoscope Combined with Chinese Drug Medication
 常染色体隐性遗传性聋 ||| autosomal recessive hereditary deafness
@@ -1133,7 +1133,7 @@ CE 型抗原 ||| Blood group antigen CE
 医院牙科门诊 ||| Hospital-based outpatient dental clinic
 人类T细胞白血病-淋巴瘤病毒 ||| human T cell leukemia-lymphoma virus
 合并疗法对慢性阻塞性肺病最好 ||| Combo Treatment Works Best for COPD
-孕期OCC组和DO组的体外成熟率分别为 6 3.6%和 2 7.3% ,P <0 .0 5 ; ||| The maturation rate in OCC group and DO group obtained from pregnant term was 63.6% and 27.3% respectively ( P <0.05);
+孕期OCC组和DO组的体外成熟率分别为 6 <num>3.6</num>%和 2 <num>7.3</num>% ,P <0 .0 5 ; ||| The maturation rate in OCC group and DO group obtained from pregnant term was <num>63.6</num>% and <num>27.3</num>% respectively ( P <<num>0.05</num>);
 人工感染试验 ||| experimental infection
 治疗乳腺增生桂枝茯苓胶囊和乳核散结片可以一起服用吗？ ||| Do capsule of tuckahoe of cassia twig of hyperplasia of remedial mammary gland and lacteal nucleus come loose knot piece can be you taken together?
 心脏声学造影 ||| cardiac acoustic contrast
@@ -1142,7 +1142,7 @@ CE 型抗原 ||| Blood group antigen CE
 手术伤口深部感染 ||| deep surgical wound infection; DSWI
 异位性ACTH综合征 ||| Ectopic ACTH syndrome
 结论张力带固定治疗锁骨远端骨折是一种简单可靠的手术方法。 ||| Conclusions The TBF is a simple and effective mothed in the treatment of distal clavicular fractures.
-FasL阳性患者完全缓解(CR)率为77.78%,而FasL阴性患者完全缓解(CR)率仅为16.67%,二者有显著统计学差异(P<0.01),观察了16例患者治疗前后FasL的变化,10例有效组治疗后,FasL水平显著下降(P0.05)。 ||| The rates of first complete remission(CR) were significantly higer in FasL+ (77.78%) than FasL- cases(16.67%) (p<0.01). The FasL level declined in 10 responding patients after therapy (p0.05).
+FasL阳性患者完全缓解(CR)率为<num>77.78</num>%,而FasL阴性患者完全缓解(CR)率仅为<num>16.67</num>%,二者有显著统计学差异(P<<num>0.01</num>),观察了16例患者治疗前后FasL的变化,10例有效组治疗后,FasL水平显著下降(P<num>0.05</num>)。 ||| The rates of first complete remission(CR) were significantly higer in FasL+ (<num>77.78</num>%) than FasL- cases(<num>16.67</num>%) (p<<num>0.01</num>). The FasL level declined in 10 responding patients after therapy (p<num>0.05</num>).
 低赖氨酸饮食 ||| lysine-poor diet
 内镜切除(术) ||| endoscopic excision
 水痘伴未特指的并发症 ||| Chickenpox with unspecified complication
@@ -1340,8 +1340,8 @@ CMN预处理可减轻CDDP引起的肾脏系数升高及BUN、CRE水平升高; ||
 慢性排异 ||| chronic rejection
 乙醇凝胶试验 ||| EGT; ethanol gelation test
 前方入路颈椎间盘切除术 ||| acd(anoterior cervical discectomy)
-使用PIR或安慰剂12个月左右，再次测量他们的平均近视已经进展成为，PIR 组是 -0.26，安危机组是 -0.53 D (P <.001)。 ||| At 12 months, mean myopic progression was -0.26 D in the PIR group and -0.53 D in the placebo group (P <.001).
-再灌注后,IR组和ISO-IR组肺组织W/D值、MDA含量和MPO活性逐渐升高,且显著高于C组(P<0.05); 但再灌注60 min后,ISO-IR组肺组织W/D值、MDA含量和MPO活性较IR组均有所降低(P<0.05)。 ||| During reperfusion,the lung W/D,MDA content and MPO activity in group IR and ISO-IR were increased progressively and significantly higher than those in group C and ISOC(P<0.05),but preadministration of isoflurane inhibited the increases in the lung W/D,MDA content and MPO activity after 60?min of reperfusion(P<0.05).
+使用PIR或安慰剂12个月左右，再次测量他们的平均近视已经进展成为，PIR 组是 -<num>0.26</num>，安危机组是 -<num>0.53</num> D (P <.001)。 ||| At 12 months, mean myopic progression was -<num>0.26</num> D in the PIR group and -<num>0.53</num> D in the placebo group (P <.001).
+再灌注后,IR组和ISO-IR组肺组织W/D值、MDA含量和MPO活性逐渐升高,且显著高于C组(P<<num>0.05</num>); 但再灌注60 min后,ISO-IR组肺组织W/D值、MDA含量和MPO活性较IR组均有所降低(P<<num>0.05</num>)。 ||| During reperfusion,the lung W/D,MDA content and MPO activity in group IR and ISO-IR were increased progressively and significantly higher than those in group C and ISOC(P<<num>0.05</num>),but preadministration of isoflurane inhibited the increases in the lung W/D,MDA content and MPO activity after 60?min of reperfusion(P<<num>0.05</num>).
 大鼠肝硬化形成过程中门静脉压力及血流动力学变化 ||| Changes of hemodynamics and portal vein pressure in the progression of portal hypertension in rats
 先天性梅毒综合征 ||| Hutchinson syndrome
 又一次由护士检查我的血压和体温。 ||| Again I was checked by the nurse for blood pressure and temperature.
@@ -1358,7 +1358,7 @@ CMN预处理可减轻CDDP引起的肾脏系数升高及BUN、CRE水平升高; ||
 Ⅰ基因座，小鼠 ||| I loci, mice
 摘要解剖性后腹腔镜肾上腺切除术是在进一步研究后腹腔解剖结构的基础上发展起来的种新技术。 ||| Anatomical ret roperitoneoscopic adrenalectomy (ARA) was developed on the basis of the advanced clinical anatomical study of retroperitoneal organs and structures.
 全身性移植物抗宿主反应 ||| system graft versus host reaction; systemic graft versus host reaction
-双侧乳腺癌占同期可手术乳腺癌的3.67%(119/3239)。 ||| The BBC was 3.67%(119/3239) of the operable breast cancer patients at the same period.
+双侧乳腺癌占同期可手术乳腺癌的<num>3.67</num>%(119/3239)。 ||| The BBC was <num>3.67</num>%(119/3239) of the operable breast cancer patients at the same period.
 急性心肌梗死溶栓前门冬氨酸钾镁治疗的临床研究 ||| The Clinical Study of before Thrombolytics Administration Potassium-magnesium Aspartate in Acute Myocardial Infarction
 有糖尿病的母亲 ||| diabetic mother
 乳腺良性肿块 ||| Benign breast lesion
@@ -1389,7 +1389,7 @@ Brb血小板抗体 ||| Platelet antibody Brb
 斑块积分 ||| Plaque scores
 受虐儿童综合征 ||| battered child syndrome
 影响药效学的因素和药物毒性的观察 ||| Factors Affecting Pharmacological Effect and Observing Drug Toxicity
-劲淋巴结转移:术后经病理证实阳性者21例,淋巴结转移率31.8%(21/66),颈部有淋巴结转移5年生存率为28.95 %,无淋巴转移为62.51%。 ||| The overall 5-year sur-vival rate was 51.96%. Cervical lymph node metastasis was proved histologically in 21/66 cases (31.8%). The 5-year survival rates in positive and negative node cases were 28.95% and 62.51% respectively.
+劲淋巴结转移:术后经病理证实阳性者21例,淋巴结转移率<num>31.8</num>%(21/66),颈部有淋巴结转移5年生存率为<num>28.95</num> %,无淋巴转移为<num>62.51</num>%。 ||| The overall 5-year sur-vival rate was <num>51.96</num>%. Cervical lymph node metastasis was proved histologically in 21/66 cases (<num>31.8</num>%). The 5-year survival rates in positive and negative node cases were <num>28.95</num>% and <num>62.51</num>% respectively.
 口腔扁平苔藓临床疗效研究中的问题及探讨 ||| Discussion on evaluation of oral lichen planus'therapeutic effects
 加强我国肺癌外科气道重建研究 ||| More attention should be devoted to the airway reconstruction of lung cancer surgery in China
 尿道周围组织活组织检查 ||| Biopsy of periurethral tissue
@@ -1437,13 +1437,13 @@ C（4）取代紫杉醇类似物 ||| C(4)paclitaxel analogues
 心肌组织速度成像 ||| Tissue velocity imaging
 手术结肠镜 ||| operating colonoscope
 劳-穆-比综合征 ||| Laurence-Moon-Biedl syndrome
-E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及肿瘤浸润深度无相关性(P>0.05)。 ||| the expression of E2F-1 in cancer tissues no correlates with the histological differentiation,depth of invasion of gastric mucosa,TNM stage and lymph node metastases(P>0.05).
+E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及肿瘤浸润深度无相关性(P><num>0.05</num>)。 ||| the expression of E2F-1 in cancer tissues no correlates with the histological differentiation,depth of invasion of gastric mucosa,TNM stage and lymph node metastases(P><num>0.05</num>).
 侧前方减压、植骨加Z型钢板内固定治疗胸腰椎严重爆裂性骨折 ||| Anterolateral decompression, bone grafting and internal fixation with Z-plate for the treatment of severe thoracolumbar burst fracture
 发育疗法博士 ||| Doctor of Development Therapy; DTD
 目的观察人参二醇皂苷(PDS)对小鼠颈椎稳定性异常引起智力下降和脑组织损伤的影响。 ||| Objective To observe the effect of panaxadiol saponins (PDS) on intellectual decline and cerebral lesion induced by destabilization of cervical vertebra in mice.
 在移植了FPP异种移植物以后的CCR2，CCR5及它们的趋化因子的基因表达可通过实时PCR来评估。 ||| Gene expression of CCR2 and CCR5 and their chemokines in transplanted FPP xenografts was evaluated by real-time PCR.
 弗莱抗原 ||| Frei's antigen
-孟加拉玫瑰红染色阳性率:增殖性糖尿病视网膜病变组阳性率显著高于非增殖性糖尿病视网膜病变组和对照组(48%比24%和14%,P<0.05,P<0.01)。 ||| Positive rate of rose Bengal staining the positive rate in proliferating diabetic retinopathy group was higher significantly than non-proliferating diabetic retinopathy group and the control ?48% vs 24% and 14%? P < 0.05? P < 0.01?.
+孟加拉玫瑰红染色阳性率:增殖性糖尿病视网膜病变组阳性率显著高于非增殖性糖尿病视网膜病变组和对照组(48%比24%和14%,P<<num>0.05</num>,P<<num>0.01</num>)。 ||| Positive rate of rose Bengal staining the positive rate in proliferating diabetic retinopathy group was higher significantly than non-proliferating diabetic retinopathy group and the control ?48% vs 24% and 14%? P < <num>0.05</num>? P < <num>0.01</num>?.
 感染部位软、粘、红肿、疼痛 ||| Soft, doughy, painful swelling at infection site
 巨细胞肺炎病毒 ||| Cytomegalic inclusion disease virus; giant cell pneumonia virus; Giant-cell pneumonia virus
 大鼠肺组织 ||| rat lung
@@ -1455,7 +1455,7 @@ E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及
 接受剂量 ||| Acceptable dose
 威利斯神经，副神经 ||| Willis nerve
 动脉假动脉瘤 ||| False aneurysm of artery
-放疗结束后3个月内,81例胸部肿瘤患者中17例(21.0%)发生急性放射性肺损伤,基础肺功能正常组和基础肺功能异常组急性放射性肺损伤的发生率分别为9.8%(5/51)和40.0%(12/30),差异有统计学意义(P<0.005)。 ||| The occurrence rate of acute radiation lung injury was 21% in the 81 cases. The occurrence rate of acute radiation lung injury was 9.8%(5/51) in normal group,and 40.0%(12/30) in the abnormal group. The difference between groups had significant(P<0.005).
+放疗结束后3个月内,81例胸部肿瘤患者中17例(<num>21.0</num>%)发生急性放射性肺损伤,基础肺功能正常组和基础肺功能异常组急性放射性肺损伤的发生率分别为<num>9.8</num>%(5/51)和<num>40.0</num>%(12/30),差异有统计学意义(P<<num>0.005</num>)。 ||| The occurrence rate of acute radiation lung injury was 21% in the 81 cases. The occurrence rate of acute radiation lung injury was <num>9.8</num>%(5/51) in normal group,and <num>40.0</num>%(12/30) in the abnormal group. The difference between groups had significant(P<<num>0.005</num>).
 慢性缺乏 ||| Chronic deficiency
 光学法血小板计数 ||| optical platelet counts
 增生性-肥大性肥胖 ||| Hyperplastic-hypertrophic obesity
@@ -1488,7 +1488,7 @@ E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及
 危重新生儿动态血小板计数监测 ||| Platelet counting in critically ill neonates
 席姆斯阴道镜 ||| Sims' vaginal speculum
 从处方变化看糖尿病治疗轨迹 ||| Probe into Treatment Track of Diabetes through the Change of Prescription
-两组结果有显著性差异（P<0.05）。[结论]短期辅助使用糖皮质激素治疗顽固性小咯血疗效确切。 ||| Both results had obvious difference（P<0.05）.[Conclusion] Short??period assistanly taking sugar cortex hormone can treat small hard emptysis definitely，without big side effect.
+两组结果有显著性差异（P<<num>0.05</num>）。[结论]短期辅助使用糖皮质激素治疗顽固性小咯血疗效确切。 ||| Both results had obvious difference（P<<num>0.05</num>）.[Conclusion] Short??period assistanly taking sugar cortex hormone can treat small hard emptysis definitely，without big side effect.
 提高透析患者血管通路的护理质量 ||| Improvement of Nursing Care Quality for Vascular Channel in Patients Receiving Hemodialysis
 乳头肌梗塞 ||| infarction of papillary muscle
 冠动脉栓塞 ||| coronary embolism
@@ -1572,7 +1572,7 @@ E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及
 尿路上皮癌 ||| Urothelial carcinoma
 先天性乳头缺失 ||| Congenital absence of nipple
 背景：儿童时期特发性肥厚性心肌病无心肌病家族病史，预示着预后不良。 ||| Background The childhood onset of idiopathic cardiac hypertrophy that occurs without a family history of cardiomyopathy can portend a poor prognosis.
-采用柱前衍生高效液相色谱法测定1.8%阿维菌素乳油在西兰花和土壤中的残留降解动态和最终残留量。 ||| Degradation dynamics and final residues of abamectin in cauliflowers and soils were estimated by HPLC with pre-column fluorescent derivatization.
+采用柱前衍生高效液相色谱法测定<num>1.8</num>%阿维菌素乳油在西兰花和土壤中的残留降解动态和最终残留量。 ||| Degradation dynamics and final residues of abamectin in cauliflowers and soils were estimated by HPLC with pre-column fluorescent derivatization.
 (=cervical and pelvic traction) 颈和骨盆牵引 ||| C & P trx.
 复方剂量配比优化数学方法的现状和展望 ||| Current situation and prospects of optimization mathematic method for dose proportion of complex prescription
 有的人外表看起来很健康,但已病情严重(如癌症),只能透过身体检查和诊断分析,或不只这些检查来查出毛 ||| "Someone may appear healthy But have a serious condition (e.g., cancer) that is detectable only by physical examination or diagnostic tests or not even by these. "
@@ -1584,16 +1584,16 @@ E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及
 乳头肌标本 ||| papillary muscle preparation
 开搏通对冠心病患者胰岛素抵抗作用的临床研究 ||| CLINICAL STUDY OF THE EFFECT OF CAPOTEN ON INSULIN RESISTANCE IN PATIENTS WITH CORONARY HEART DISEASE
 复治肺结核 ||| Retrated pulmonary tuberculosis
-与手术组比较,氯沙坦组大鼠血浆ET含量与PDGF-B表达显著下降(P<0.05)。 ||| Compared with operating group,VSMCs proliferating was inhibited and also the ET level,expression of PDGF-B were decreased obviously in losartan group(P<0.05,respectively).
+与手术组比较,氯沙坦组大鼠血浆ET含量与PDGF-B表达显著下降(P<<num>0.05</num>)。 ||| Compared with operating group,VSMCs proliferating was inhibited and also the ET level,expression of PDGF-B were decreased obviously in losartan group(P<<num>0.05</num>,respectively).
 布-伦二氏综合征 ||| Braham-Lenz syndrome
 心肌蛋白 ||| proteins of cardiac muscle
 并用加速试验，着重考察了不同辅料对维生素C片稳定性的影响，筛选出较为理想的工艺处方。 ||| Effects of differ-ent excipients on the stability of vitamin C tablets were investigated with accelerating test.A rea-sonable formula was chosen in the studv.
 哺乳犊牛的消化特点与蛋白质营养研究进展 ||| Advance Researches on Digestive Characteristic and Protein Nutrition in Suckled Calves
 带肺叶心脏移植 ||| heterotopic heart-lung transplantation
-冠心病患者空腹血清抵抗素浓度与空腹胰岛素及冠状动脉狭窄程度评分呈显著正相关[r分别为0.303(P<0.05),0.38(P=0.01)]; ||| The serum RSTN was a significantly positively correlated with the level of FSI (r=0.303,P<0.05) and score of coronary stenosis (r=0.38,P=0.01) in the patients with CHD .
+冠心病患者空腹血清抵抗素浓度与空腹胰岛素及冠状动脉狭窄程度评分呈显著正相关[r分别为<num>0.303</num>(P<<num>0.05</num>),<num>0.38</num>(P=<num>0.01</num>)]; ||| The serum RSTN was a significantly positively correlated with the level of FSI (r=<num>0.303</num>,P<<num>0.05</num>) and score of coronary stenosis (r=<num>0.38</num>,P=<num>0.01</num>) in the patients with CHD .
 曲面体层下颌指数 ||| Panoramic mandibular index
 在实验室进行的检测中,一种从海藻中提取的化合物能够抑制生殖器疣和致癌类型的HPV病毒感染。 ||| Carries on in the laboratory in the examination, one kind the compound which withdraws from the seaweed can suppress the reproductive organ wart and the type HPV virus infection.
-结论：抗病毒药物（病毒唑或阿昔洛韦）和氯氧油联合使用与单独使用抗病毒药物（病毒唑或阿昔洛韦）相比，疗效显著提高(P<0.05)； ||| Conclusion: Combined therapy with an antiviral (either ribavirin or acyclovir) and CZC oil resulted in improved efficacy as compared with antiviral alone (P<0.05).
+结论：抗病毒药物（病毒唑或阿昔洛韦）和氯氧油联合使用与单独使用抗病毒药物（病毒唑或阿昔洛韦）相比，疗效显著提高(P<<num>0.05</num>)； ||| Conclusion: Combined therapy with an antiviral (either ribavirin or acyclovir) and CZC oil resulted in improved efficacy as compared with antiviral alone (P<<num>0.05</num>).
 大鼠乳腺瘤病毒 ||| rat mammary tumor-derived virus
 人全血清 ||| human whole serum; HWS
 先天性β脂蛋白缺乏综合征 ||| Bassen-Kornzwing syndrome; congenital betaprotein deficiency syndrome
@@ -1631,7 +1631,7 @@ E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及
 子宫肌瘸 ||| Uterine myoma
 苯扎溴铵(新洁而灭)、碘伏抹洗的效果进行比较。 ||| benzalkonium and povidone iodine respectively and detecting vaginal clearing degree and mycoplasm, the effects were compared.
 先天性阴茎异常 ||| Congenital anomaly of penis
-依据多层螺旋CT判定结肠癌大体分型的准确率为95.9%; ||| In diagnosing advanced carcinoma of large intestine by multi-slice spiral CT,the accuracy of judging Borrmann typing was 95.9%;
+依据多层螺旋CT判定结肠癌大体分型的准确率为<num>95.9</num>%; ||| In diagnosing advanced carcinoma of large intestine by multi-slice spiral CT,the accuracy of judging Borrmann typing was <num>95.9</num>%;
 变形血管夹 ||| modifind vascular clamp
 原络通经针法治疗血管性痴呆的临床应用与思考 ||| Clinical application and thingking of Vascular dementia treated with source-collateral restoring menstrual flow method of acupuncture
 室间隔缺损用假体修复术 ||| Repair of ventricular septal defect with prosthesis
@@ -1647,14 +1647,14 @@ E2F-1在癌组织中的表达与TNM分期、组织学分级、淋巴结转移及
 放射性同位素脑血管造影 ||| cerebral radiosotope angiography
 主要的冠状动脉 ||| major coronary arteries; MCA
 孕妇心电图中短P-R间期现象的临床意义 ||| THE CLINICAL SIGNIFICANCE OF SHORT P-R INTERVAL PHENOMENON OF ELECTROCARDIOGRAM IN PREGNANT WOMAN
-峰值强度大于良性组和转移组(P均<0.001)。 ||| and the PIs in lymphoma were significantly higher than those of the benign and metastatic groups (both P<0.001).
+峰值强度大于良性组和转移组(P均<<num>0.001</num>)。 ||| and the PIs in lymphoma were significantly higher than those of the benign and metastatic groups (both P<<num>0.001</num>).
 分设治疗设备 ||| radiotherapy equipment
 韩俊领，严文伟，战其军，等.异搏定与它莫西芬联合逆转高三尖杉酯碱耐药的体外研究.中华血液学杂志，1997；18(3)：143 ||| Hu XF,Martin TJ,Bell DR,et al.Combined use of cyclosporine A and verapamil in modulating multidrug resistance in human leukemia lines.Cancer Res 1990;50：2953
 CD62P在结直肠癌组织中的表达显著升高，并与Dukes分期和肿瘤转移明显相关； ||| Tissue CD62P expression was significantly higher in patients with colorectal cancer than that in controls, and was highly correlated with Dukes staging and metastasis.
 慢性间质性乳腺炎 ||| chronic interstitial mammitis
 尿崩病 ||| diabetes insipidus
 受体转化 ||| receptor transforming; RT
-和EPVC组比较 ,EPIC组消化道反应、骨髓抑制和肝肾功能损害等毒副反应明显降低 (P <0 0 5 ) ; ||| Major adverse effects such as nausea,vomiting,inhibition of bone marrow,liver dysfunction and renal impairment in EPIC group were significantly lower than those in EPIV group( P <0.05-0.01).
+和EPVC组比较 ,EPIC组消化道反应、骨髓抑制和肝肾功能损害等毒副反应明显降低 (P <0 0 5 ) ; ||| Major adverse effects such as nausea,vomiting,inhibition of bone marrow,liver dysfunction and renal impairment in EPIC group were significantly lower than those in EPIV group( P <<num>0.05</num>-0.01).
 先天性上肢缺失 ||| Congenital absence of upper limb
 手法复位结合PVP治疗老年骨质疏松多发性椎体骨折21例 ||| Treatment of 21 Cases of Multiple Cone Fracture due to Osteoporosis with Manual Reposition Combined with PVP
 先天性完全性牙缺失 ||| Complete congenital absence of teeth
@@ -1662,7 +1662,7 @@ CD62P在结直肠癌组织中的表达显著升高，并与Dukes分期和肿瘤�
 外阴癌根治手术 ||| radical vulvectomy for carcinoma
 孕囊直径 ||| Gestational sac diameter
 子宫冲洗导管 ||| uterine irrigating catheter
-慢性乙型肝炎患者SOD、GSH-Px活性降低(P<0.05),LPO水平升高(P<0.05); ||| Compared with the health controls, in CHB patients,the activities of SOD and GSH-Px were reduction(P<0.01) and the level of LPO was elevation(P<0.05).
+慢性乙型肝炎患者SOD、GSH-Px活性降低(P<<num>0.05</num>),LPO水平升高(P<<num>0.05</num>); ||| Compared with the health controls, in CHB patients,the activities of SOD and GSH-Px were reduction(P<<num>0.01</num>) and the level of LPO was elevation(P<<num>0.05</num>).
 尿蛋白电泳 ||| UPEP; urine protein electrophoresis
 感染突变病毒的病人会病情复常，有几例已经死亡。由于并发症的危险更高，有些病人已经不得不放弃肝移植。 ||| A recent study by Liaw Yun-San, a leading Taiwan hepatologist, uncovered more frequent and severe liver attacks in lamivudine patients with the mutant than Glaxo had been reporting .
 研究背景心室重构为充血性心力哀竭(CHF)其发生基础,CHF又进一步力重心室重构,二者互相影响形成恶性循环。 ||| Background: Ventricular remodeling is the essential basis of chronic congestive heart failure (CHF), and CHF aggravate ventricular remodeling.
@@ -1685,7 +1685,7 @@ CD62P在结直肠癌组织中的表达显著升高，并与Dukes分期和肿瘤�
 (2)、巴曲酶组大鼠较多、较早地使用了正常的认知策略。 ||| Batroxobin reduced the size of the infarction and down-regulated the expression of PDGF-A.
 原发性输尿管肿瘤 ||| Primary ureteral tumor
 先天性缺乏 ||| Congenital deficiency
-实验组术后颅内压(ICP)明显低于对照组,预后评分(GOS)明显优于对照组(P<0.05)。 ||| The ICP levels of patients of the experimental group were lower than the control groud-the outcome (Glasgow outcome scale) was better than the control groud significantly(P<0.05).
+实验组术后颅内压(ICP)明显低于对照组,预后评分(GOS)明显优于对照组(P<<num>0.05</num>)。 ||| The ICP levels of patients of the experimental group were lower than the control groud-the outcome (Glasgow outcome scale) was better than the control groud significantly(P<<num>0.05</num>).
 先天性膝后弯 ||| congenital genu recurvatum
 海-里二氏鼻咬骨钳 ||| Heymann-Ritter nasal cutting forceps
 慢性中性粒细胞白血病2例附文献复习 ||| A Report of 2 cases of chronic neutrophilic leukemia and literature review
@@ -1716,7 +1716,7 @@ CD62P在结直肠癌组织中的表达显著升高，并与Dukes分期和肿瘤�
 急性化脓性脓胸 ||| acute suppurative empyema
 全层关节软骨缺损 ||| Complete cartilage Defect
 应用负压引流对照常规引流治疗慢性硬膜下血肿临床疗效分析 ||| Effect analysis of negative pressure drainage versus common pressure drainage in patients with chronic subdural hematoma
-日粮中添加0.8%的蛋氨酸,显著优于0.2%组、0%组(P<0.05)。 ||| 8% Met is higher than others.
+日粮中添加<num>0.8</num>%的蛋氨酸,显著优于<num>0.2</num>%组、0%组(P<<num>0.05</num>)。 ||| 8% Met is higher than others.
 妊娠高血压综合征剖宫产术不同麻醉方法的对比观察 ||| Various anaesthesia used in caesarean operation in gestational high blood pressure syndrome
 保留骨骺灭活再植术 ||| osteosarcoma with inactivated bone replantation
 人脑胶质瘤细胞U251 ||| human glioma cell U251
@@ -1768,7 +1768,7 @@ CD62P在结直肠癌组织中的表达显著升高，并与Dukes分期和肿瘤�
 妊娠期血压 ||| blood pressure in pregnancy
 急性胃肠道出血 ||| Acute gastrointestinal bleeding; Acute gastrointestinal hemorrhage; Acute GI bleeding; Acute GI hemorrhage
 婴幼儿喘息性疾病患者甲皱微循环变化的临床意义 ||| Clinical significance of changed nailford microcirculation in infant pant
-在进行腹腔镜部分膀胱切除术时意外发现肿胀之阑尾大小为7.5公分乘2.0公分且沾黏于膀胱。 ||| An engorged appendix measuring 7.5 by 2 cm and which had adhered to the urinary bladder was incidentally found during a laparotomy for a partial cystectomy.
+在进行腹腔镜部分膀胱切除术时意外发现肿胀之阑尾大小为<num>7.5</num>公分乘<num>2.0</num>公分且沾黏于膀胱。 ||| An engorged appendix measuring <num>7.5</num> by 2 cm and which had adhered to the urinary bladder was incidentally found during a laparotomy for a partial cystectomy.
 人食管癌Eca-109细胞株 ||| human esophageal carcinoma Eca-109 cell line
 方法对100例产妇分娩时实施蛛网膜下腔和硬膜外腔联合麻醉（观察组），并与100例未实施麻醉者（对照组）进行比较。 ||| Methods 100 pregnant women were administered combined subarachnoid and epidural anesthesia during labour and compared with another 100 control pregnant women who did not receive the combined anesthesia.
 根管塑化疗法 ||| root canal resinifying
@@ -1806,7 +1806,7 @@ CD62P在结直肠癌组织中的表达显著升高，并与Dukes分期和肿瘤�
 扩增折射突变系统 ||| amplification refractory mutation system(ARMS)
 指数增殖相 ||| exponential growth phase
 最佳终止治疗时间 ||| best time of termination of treatment
-亚甲蓝组与联合组的假阴性率分别为15.15%、12.50%。 ||| The false negative rate of the MBD group and the combination was 15.15%、12.5% respectively.
+亚甲蓝组与联合组的假阴性率分别为<num>15.15</num>%、<num>12.50</num>%。 ||| The false negative rate of the MBD group and the combination was <num>15.15</num>%、<num>12.5</num>% respectively.
 大黄牡丹汤加减治疗混合痔75例疗效观察 ||| The Observation on the Curative Effect of 75 Cases of Mixed Hemorrhoid Treated by DAHUANG MUDAN TANG add-subtract
 冠状动脉“无再灌注”现象 ||| coronary "no reperfusion" phenomenon
 手术疗效 ||| Operative outcomes
@@ -1827,7 +1827,7 @@ CD62P在结直肠癌组织中的表达显著升高，并与Dukes分期和肿瘤�
 心肌停搏 ||| Cardioplegie solution
 埃-卢二氏综合征 ||| amaurosis-hemiplegia syndrome; Espildora-Luque syndrome
 细小静脉图像 ||| small vein image
-Bcl2蛋白阳性表达率在小细胞肺癌显著高于非小细胞肺癌(P<0.05)。 ||| The positive rate of Bcl 2 protein expression in SCLC was significantly higher than that in NSCLC (P<0.05).
+Bcl2蛋白阳性表达率在小细胞肺癌显著高于非小细胞肺癌(P<<num>0.05</num>)。 ||| The positive rate of Bcl 2 protein expression in SCLC was significantly higher than that in NSCLC (P<<num>0.05</num>).
 原发性肝癌自发性破裂 ||| spontaneous rupture hepatocellular carcinoma
 定制型人工髋关节置换治疗股骨近端瘤性病变 ||| TREATMENT OF TUMOROUS DISEASE IN PROXIMAL FEMUR BY CUSTOMIZED HIP ARTHROPLASTY
 多发性特异性牙根吸收 ||| multiple idiopathic root resorption
@@ -1890,7 +1890,7 @@ D型肝炎病毒抗体 ||| anti-δ; antibody to δ Ag
 心原性哮喘 ||| cardiac asthma
 原发性虹膜萎缩 ||| Essential iris atrophy
 急性重症肝炎 ||| Acute sever hepatitis
-以法国紫红袍电叠玫瑰鲜花花瓣为原料,主要研究了玫 瑰酱的加工工艺,并采用正交实验设计得出了玫瑰酱的 三种最佳配方为:a玫瑰花瓣50g,白砂糖120g,柠檬酸 0.35%,果胶0.6%,纯净水150mL; ||| Using fresh rose petals as the raw material,the processing technique of rose petal jam was studied based on the orthogonal experiment with multiple factors. Three optimal formula were developed as the following:a. 50g rose petals,120g sugar,0.35% citric aoid,pure water 150mL,fruit pectin 0.6% ;
+以法国紫红袍电叠玫瑰鲜花花瓣为原料,主要研究了玫 瑰酱的加工工艺,并采用正交实验设计得出了玫瑰酱的 三种最佳配方为:a玫瑰花瓣50g,白砂糖120g,柠檬酸 <num>0.35</num>%,果胶<num>0.6</num>%,纯净水150mL; ||| Using fresh rose petals as the raw material,the processing technique of rose petal jam was studied based on the orthogonal experiment with multiple factors. Three optimal formula were developed as the following:a. 50g rose petals,120g sugar,<num>0.35</num>% citric aoid,pure water 150mL,fruit pectin <num>0.6</num>% ;
 乙型病毒性肝炎（乙肝） ||| Viral hepatitis B
 摘要在豆乳或发酵豆乳的加工中，大豆涩味、苦味和青草味成分物质所构成的不良异味，被人们描述为大豆腥味。 ||| In the process of soybean milk and fermentation, soybean beany flavor is described by the unpleasant smelling consisted of the acerbity, bitter and grass-smelling component.
 并使用了严格的诊断标准，包括个体内科医师的诊断，肺功能检查的结果，X线和活检所见，在两个研究组中，他们检查了慢性阻塞性肺病和弥散性肺实质浸润性肺病（PILD)累计发生率。 ||| Using a list of strict diagnosis criteria, individual physician's diagnoses, pulmonary function testing results, X-rays and biopsy findings, they estimated the cumulative incidence of obstructive lung disease and diffuse parenchymal infiltrative lung disease( DPILD) in the study group.
@@ -1923,7 +1923,7 @@ BPA与流产、乳腺癌、子宫癌以及睾丸激素水平降低有关。 ||| 
 儿科肾病学 ||| pediatric nephrology
 黄克维，吴丽娟.临床神经病理学[M].北京:人民军医出版社，1999，21. ||| Fazekas F，Klcinert R，Offenbacher H，et al. Pathologiccorrelates of incidental MRI white matte signal hyperintensities[J]. Neurology, 1993，43:1683.
 产科感染 ||| Obstetrics infection
-B超34例，腺体增大凸入膀胱8例（23.5%），内部强回声4例（11.7%），低回声12例（35.2%），两侧叶不对称、伴高低不平13例（38.2%），浸润膀胱壁和三角区6例（17.6%），侵犯双侧精囊和直肠壁3例（8.8%）； ||| Ultrasonography revealed a prostatic enlargement in 8 ( 23.5%),high echo in 4 (11.3%),low echo in 12 (35.2%),vesical infiltration in 6 (17.6%) and semical rectal wall invasion in 3 (8.8%).
+B超34例，腺体增大凸入膀胱8例（<num>23.5</num>%），内部强回声4例（<num>11.7</num>%），低回声12例（<num>35.2</num>%），两侧叶不对称、伴高低不平13例（<num>38.2</num>%），浸润膀胱壁和三角区6例（<num>17.6</num>%），侵犯双侧精囊和直肠壁3例（<num>8.8</num>%）； ||| Ultrasonography revealed a prostatic enlargement in 8 ( <num>23.5</num>%),high echo in 4 (<num>11.3</num>%),low echo in 12 (<num>35.2</num>%),vesical infiltration in 6 (<num>17.6</num>%) and semical rectal wall invasion in 3 (<num>8.8</num>%).
 先天性趾缺失 ||| Congenital absence of toe
 应用循证医学理论提高临床教学质量 ||| Application of the theory of evidence-based medicine to improve the quality of clinical teaching
 局灶损伤的神经系统体征 ||| neurological signs of focal damage
@@ -1931,7 +1931,7 @@ B超34例，腺体增大凸入膀胱8例（23.5%），内部强回声4例（11.7
 子宫颈涂片检查 ||| cervical smear
 结论：熟悉和掌握IVU的X线征象结合CT平扫是诊断输尿管阴性结石的一种准确、无创的有价值的检查方法。 ||| Conclusion: Rccognizing the X-ray signs on IVU and combining with plain CT scan findings is very essential for the diagnosing of radiolucent ureteral calculus.
 扩大开窗术治疗腰椎间盘突出伴侧隐窝狭窄 ||| Extended fenestration applied in treatment of prolapse of lumbar intervertebral disc and lateral crypt stenosis
-方法:海军总医院放疗科和解放军第一零七医院自1998年12月至2002年6月,对120例肺癌患者进行超分割放疗,剂量为1.0-1.25Gy/次,2次/d,间隔6h,5d/周,总剂量为50-70Gy。 ||| Methods: From December 1998 to June 2002, 120 cases of lung cancer were treated with superfractioned radiotherapy. The treatment profile was as follows: the dose was 1.0- 1.25 Gy/fraction, 2 fractions/day, interval was 6 hours, 5 days/week, accumulated dose was 50 - 70 Gy.
+方法:海军总医院放疗科和解放军第一零七医院自1998年12月至2002年6月,对120例肺癌患者进行超分割放疗,剂量为<num>1.0</num>-1.25Gy/次,2次/d,间隔6h,5d/周,总剂量为50-70Gy。 ||| Methods: From December 1998 to June 2002, 120 cases of lung cancer were treated with superfractioned radiotherapy. The treatment profile was as follows: the dose was <num>1.0</num>- <num>1.25</num> Gy/fraction, 2 fractions/day, interval was 6 hours, 5 days/week, accumulated dose was 50 - 70 Gy.
 成纤维细胞诱生细胞因子 ||| fibroblast induced cytokine
 心血管外科医生 ||| Cardiovascular surgeon
 基因插入疗法 ||| Gene insertion therapy
@@ -1966,7 +1966,7 @@ B超34例，腺体增大凸入膀胱8例（23.5%），内部强回声4例（11.7
 双瓣膜病变 ||| double-valve diseases
 家庭危险因素对青少年自杀行为的影响主要从两个方面体现出来 :一是形成自杀青少年的人格缺陷 ; ||| The influences of family risky factors for hobbledehoy's suicidal behavior are mainly represented in two aspects: One is to form the personality disfigurement of the suicidal hobbledehoy;
 无分泌功能性垂体腺瘤的临床与病理学研究 ||| THE NONSECRETING PITUITARY ADENOMA:CLINICAL AND PATHOLOGICAL STUDY
-结果显示：固定化微生物对围隔内水质有间接影响，试验后期固定化微生物组（ZE-M，DI-M和FC-M组）的上覆水硝氮浓度显著高于对照组(P＜0.05)； ||| Concentrations of nitrate of overlying water in ZE-M, DI-M and FC-M were significantly higher than those in control enclosures during final experimental period(P＜0.05).
+结果显示：固定化微生物对围隔内水质有间接影响，试验后期固定化微生物组（ZE-M，DI-M和FC-M组）的上覆水硝氮浓度显著高于对照组(P＜<num>0.05</num>)； ||| Concentrations of nitrate of overlying water in ZE-M, DI-M and FC-M were significantly higher than those in control enclosures during final experimental period(P＜<num>0.05</num>).
 分段性切除和结扎 ||| Segmental excision and ligation
 内窥镜逆行性 ||| Endoscopic Retrograde
 坏死产球菌感染 ||| Infection due to Sphaerophorus necrophorus
@@ -1994,7 +1994,7 @@ B超34例，腺体增大凸入膀胱8例（23.5%），内部强回声4例（11.7
 子宫扩张和刮括术 ||| dilatation of the cervix and curettage of the uterine cavity
 外阴多余粘膜切除术 ||| Excision of redundant mucosa of vulva
 胃管吸引出血液，可能代表口咽部出血（吞入胃内）、插管损伤或上消化道的损伤。 ||| Blood in the gastric aspirate may represent oropharyngeal (swallowed) blood, traumatic insertion, or actual injury to the upper digestive tract.
-对照组、轻度原发性高血压组、顽固性高血压组、肾病不伴高血压组、肾实质高血压组和肾移植后高血压组中检测出抗AT1R的自身抗体分别为15%,16.7%,40%,20%,30%,50%。 ||| The positive percentages of autoantibodies against the AT1R were 15%,16.7%,40%,20%,30%,50% in controls,and patients with essential hypertension grade I(EH),resistant hypertension (RH),the patients with renal disease but without hypertension (RDC),renal disease hypertension(RDH) and hypertension of renal transplantation receipts(RTH),respectively.
+对照组、轻度原发性高血压组、顽固性高血压组、肾病不伴高血压组、肾实质高血压组和肾移植后高血压组中检测出抗AT1R的自身抗体分别为15%,<num>16.7</num>%,40%,20%,30%,50%。 ||| The positive percentages of autoantibodies against the AT1R were 15%,<num>16.7</num>%,40%,20%,30%,50% in controls,and patients with essential hypertension grade I(EH),resistant hypertension (RH),the patients with renal disease but without hypertension (RDC),renal disease hypertension(RDH) and hypertension of renal transplantation receipts(RTH),respectively.
 并存的心房颤动 ||| concurrent atrial fibrillation
 结论改变了现行顺行定位钻孔方法，避免了因此造成的各种并发症，损伤少，值得推广使用。 ||| Conclusion The currently used anterograde drill-positioning was changed.Therefore various complications due to this were avoided.So the retrograde method is less traumatie and worth of recommending.
 先天性膀胱输尿管反流 ||| Congenital vesicoureteral reflux; Congenital vesico-ureteric reflux

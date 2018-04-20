@@ -382,13 +382,20 @@ blockquote {
 <h1 id="%E5%BC%95%E5%85%A5%E9%97%AE%E9%A2%98">引入问题</h1>
 <p>正则表达式是处理文本和字符串的利器。假设你想检查一个邮箱地址是否合法，如果不用正则表达式，请问你会用什么来处理呢？自己编写一段复杂的字符串匹配的代码吗？利用正则表达式，我们可以使用一句不太长的字符，完成一个很复杂的功能。但是，过长的正则表达式晦涩难懂，即使写出这些正则表达式，过段时间后也不见得能够解释清楚。</p>
 <p>带着问题学习，能够有效地增加高级知识，更有针对性，学习效果会更好。为了完成下面的讲述，我们先来看几个问题。</p>
-<p>我们使用的文本是医疗领域的50000句中英双语句对，中文和英文之间以<code>&quot; ||| &quot;</code>分隔。想象一下我们有以下的检索任务：</p>
+<p>我们使用的文本是医疗领域的50000句中英双语句对，中间以空格分隔，有以下的整理任务。</p>
+<ul>
+<li>将中英文句对拆分</li>
+</ul>
+<p>如果中英文中间没有空格。</p>
+<ul>
+<li>将中英文句对拆分，拆分规则是英文中没有中文</li>
+<li>将中英文句对拆分，拆分规则是中文中没有英文</li>
+</ul>
+<p>拆分以后的中英文句对以<code>&quot; ||| &quot;</code>分隔。想象一下我们有以下的检索任务：</p>
 <ul>
 <li>数字，包括整数和小数</li>
 <li>英文缩写，骆驼拼写等特殊单词</li>
 <li>带有连字符的英文单词，包括化合物名字</li>
-<li>中文中含有的英文单词</li>
-<li>中英对照的单词、数字</li>
 </ul>
 <p>如果搞懂了以上的集个案例，那我们也就入门了通配符和正则表达式。</p>
 <h1 id="word%E4%B8%AD%E7%9A%84%E9%80%9A%E9%85%8D%E7%AC%A6">Word中的通配符</h1>
@@ -416,7 +423,7 @@ blockquote {
 <li>
 <p><code>\</code></p>
 <p>如果你想查找任意有特殊含义的字符，例如通配符中的<code>?</code>, <code>*</code>, <code>@</code>, 应当在前面加上<code>\</code>进行转义，例如<code>\?</code>, <code>\*</code>, <code>\@</code>。如果想要查找<code>\</code>本身，应当使用<code>\\</code>。</p>
-<p>列举通配符查找中的特殊含义字符： <input type="checkbox" id="checkbox0"><label for="checkbox0">{ } &lt; &gt; ( ) - @ ? ! * \</label></p>
+<p>列举通配符查找中的特殊含义字符： <code>[</code> <code>] { } &lt; &gt; ( ) - @ ? ! * \</code></p>
 </li>
 <li>
 <p><code>[!]</code></p>
@@ -432,7 +439,7 @@ blockquote {
 <p>查找：<code>&lt;([A-Z][a-z]@)([A-Z][a-z]@)&gt;</code></p>
 <p>替换：<code>\1 \2</code></p>
 <p>这在解析html标签时也十分有用，例如给<code>&lt;title&gt;正则表达式&lt;/title&gt;</code>脱括号：</p>
-<p>查找：<code>\&lt;([!&lt;&gt;]@)\&gt;(*)\&lt;/\1\&gt;</code></p>
+<p>查找：<code>\&lt;([!&lt;&gt;]@)\&gt;([!&lt;&gt;^13]@)\&lt;/\1\&gt;</code></p>
 <p>替换：<code>\2</code></p>
 </li>
 <li>
@@ -448,6 +455,10 @@ blockquote {
 <p>要匹配<code>looootloooot</code>, 由于<code>*</code>, <code>@</code>非贪婪，故应当对匹配内容进行精确描述：</p>
 <p><code>l*t</code>或者<code>l[lot]@t</code>只能够匹配前面的<code>loooot</code>, 而<code>l*t&gt;</code>或者<code>l[lot]@t&gt;</code>则可以匹配全部。</p>
 <p><code>l[lot]{1,}t</code>不能匹配，因为<code>l[lot]{1,}</code>就已经侵吞了全部的字符串，没有机会留给最后一位的<code>t</code>。</p>
+</li>
+<li>
+<p>回溯</p>
+<p>使用<code>a@ab</code>和字符串<code>aaaaab</code>匹配，首先侵吞全部的<code>a</code>，然后吐出一位，最后匹配成功</p>
 </li>
 <li>
 <p>字符编码</p>
@@ -479,6 +490,18 @@ blockquote {
 <h2 id="%E7%BB%83%E4%B9%A0">练习</h2>
 <ol>
 <li>
+<p>中英文以空格分隔</p>
+<p><code>([!^13 ]@) ([!^13]@^13)</code></p>
+</li>
+<li>
+<p>英文中没有中文</p>
+<p><code>([!^13]@[一-龥])([!一-龥]@^13)</code></p>
+</li>
+<li>
+<p>中文没有英文</p>
+<p><code>([!^13 A-Za-z]@)([A-Za-z][!^13]@^13)</code></p>
+</li>
+<li>
 <p>数字，包括整数和小数</p>
 <p><code>&lt;[0-9]@&gt;</code> <code>&lt;[0-9]@.[0-9]@&gt;</code></p>
 <p>由于Word中没有匹配0个或者1个的概念，因此只能分两步来写</p>
@@ -492,16 +515,6 @@ blockquote {
 <p>带有连字符的英文单词，包括化合物名字</p>
 <p><code>&lt;[A-Za-z]@\-[A-Za-z]@&gt;</code></p>
 <p>由于Word中没有重复表达式多次的概念，因此只能匹配固定个数连字符；由于没有匹配0个或1个的概念，因此如果引入数字，需要指定数字与英文的相对位置</p>
-</li>
-<li>
-<p>中文中含有的英文单词</p>
-<p><code>([一-龥])([A-Za-z]@)([一-龥])</code> <code>([一-龥])([A-Za-z]@)&gt;</code> <code>&lt;([A-Za-z]@)([一-龥])</code> <code>&lt;([A-Za-z]@)&gt;</code></p>
-<p>替换时可以<code>\1&lt;x1&gt;\2&lt;/x1&gt;\3</code>对想要的字段进行标记</p>
-</li>
-<li>
-<p>中英对照的单词、数字</p>
-<p><code>([A-Za-z]@)([!^13]@ ||| [!^13]@&lt;\1&gt;)</code></p>
-<p>替换时可以<code>&lt;x1&gt;\1&lt;/x1&gt;\2</code>对想要的字段进行标记</p>
 </li>
 </ol>
 <h1 id="antconc%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F">Antconc中的正则表达式</h1>
@@ -639,7 +652,7 @@ blockquote {
 <li>
 <p>字符转义</p>
 <p>这个概念在Word通配符中也存在。需要在想要查找的元字符之前加上<code>\</code></p>
-<p>列举正则中需要转义的字符： <input type="checkbox" id="checkbox1"><label for="checkbox1">{ } ( ) - \ |</label></p>
+<p>列举正则中需要转义的字符： <input type="checkbox" id="checkbox0"><label for="checkbox0">{ } ( ) - \ |</label></p>
 </li>
 </ol>
 <h2 id="%E9%AB%98%E7%BA%A7%E6%A6%82%E5%BF%B5">高级概念</h2>
@@ -770,6 +783,20 @@ blockquote {
 <h2 id="%E7%BB%83%E4%B9%A0">练习</h2>
 <ol>
 <li>
+<p>中英文以空格分隔</p>
+<p><code>^([^ ]+)</code></p>
+</li>
+<li>
+<p>英文中没有中文</p>
+<p><code>(?&lt;=[一-龥])(?=[^一-龥]*$)</code></p>
+</li>
+<li>
+<p>中文没有英文</p>
+<p><code>^([^A-Za-z ]+)</code></p>
+</li>
+</ol>
+<ol>
+<li>
 <p>数字，包括整数和小数</p>
 <p><code>[0-9]+(\.[0-9]+)?</code></p>
 <p>以上的正则会匹配英文代号如<code>H7N9</code>中的<code>7</code>和<code>9</code>，怎样解决？(<code>\b</code>要考虑中文)</p>
@@ -785,17 +812,9 @@ blockquote {
 <code>5-year</code>, <code>long-term</code>, <code>Laurence-Moon-Biedl</code></p>
 </li>
 <li>
-<p>中文中含有的英文单词</p>
-<p><code>(?&lt;=[一-龥]|\b)([A-Za-z]{2,})(?=[一-龥]|\b)(?=.* \|\|\| )</code></p>
-<p>在Notepad++/Antconc中，上述表达式不能运行，这是因为在大多数语言中，正则的后向查找零宽断言<code>(?&lt;=exp)</code>不支持变长度。所以最好修改为：</p>
-<p><code>(?&lt;=[一-龥])([A-Za-z]{2,})(?=[一-龥]|\b)(?=.* \|\|\| )</code></p>
-<p>在Notepad++/Antconc中，<code>[一-龥]</code>对应的<code>[\u4e00-\u9fa5]</code>不能使用，应当采用<code>[\x{4e00}-\x{9fa5}]</code></p>
-<p>替换时可以<code>&lt;x1&gt;$1&lt;/x1&gt;</code>对想要的字段进行标记</p>
-</li>
-<li>
-<p>中英对照的单词、数字</p>
-<p><code>([A-Za-z]+)(?=.* \|\|\| .*\b\1\b)</code></p>
-<p>替换时可以<code>&lt;x1&gt;$1&lt;/x1&gt;</code>对想要的字段进行标记</p>
+<p>叠词</p>
+<p><code>\b([A-Za-z]+)\1([A-Za-z]+)\2\b</code>
+<code>\b(?&lt;w1&gt;[A-Za-z]+)\k&lt;w1&gt;(?&lt;w2&gt;[A-Za-z]+)\k&lt;w2&gt;\b</code></p>
 </li>
 </ol>
 
