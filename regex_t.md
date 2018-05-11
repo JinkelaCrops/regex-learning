@@ -1,6 +1,6 @@
 # 正则表达式入门
 
-正则表达式于1960s由Thompson引入Unix系统的标准文本编辑器，自此以后正则表达式被广泛地应用于各种Unix或类Unix系统的工具中。正则表达式遵循一定的规范，最著名的是从Perl衍生出来的PCRE（Per Compatible Regular Expression）规范和POSIX（Portable Operating System Interface for Unix）规范定义的正则规范。目前，各个编程语言都或多或少地支持一定的程度的正则表达式，但是也有一些自己特有的不同之处。
+正则表达式于1960s由Thompson引入Unix系统的标准文本编辑器，自此以后正则表达式被广泛地应用于各种Unix或类Unix系统的工具中。正则表达式遵循一定的规范，最著名的是从Perl衍生出来的PCRE（Perl Compatible Regular Expression）规范和POSIX（Portable Operating System Interface for Unix）规范定义的正则规范。目前，各个编程语言都或多或少地支持一定的程度的正则表达式，但是也有一些自己特有的不同之处。
 
 ## 引入问题
 
